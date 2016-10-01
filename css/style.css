@@ -1,0 +1,19 @@
+body {
+	background-color: #fff;
+	text-rendering: optimizeLegibility;
+	margin-top: 70px;
+}
+
+blockquote {
+	color: #333;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 17px;
+}
+
+.articles {
+	margin-left: -15px;
+}
