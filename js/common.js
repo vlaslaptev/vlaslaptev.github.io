@@ -4,6 +4,6 @@ $(".nav a").on("click", function(e){
 	$(".nav").find(".active").removeClass("active");
 	$(this).parent().addClass("active");
 
-	$(".content").load($(this).href);
+	$(".content").load($(this).attr('href'));
 });
 
