@@ -8,13 +8,13 @@ function buildURL(anchor) {
 }
 
 function escapeString(string) {
-    return string.replace("/", "\\/")
+    return string.replace("/", "\\/");
 }
 
 $(".nav a").on("click", function (e) {
     e.preventDefault();
     e.stopPropagation();
-    var href = $(this).attr('href')
+    var href = $(this).attr('href');
     updateState(href);
     $(".nav").find(".active").removeClass("active");
     $(this).parent().addClass("active");
@@ -29,7 +29,7 @@ function checkLocalState() {
         if (currentState) {
             $(".content").load('html/' + buildURL(currentState) + '.html');
             $(".nav").find(".active").removeClass("active");
-            $(".nav a[href=" + escapeString(buildURL(currentState)+"]")).parent().addClass("active");
+            $(".nav a[href=" + escapeString(buildURL(currentState) + "]")).parent().addClass("active");
         }
     }
 }
