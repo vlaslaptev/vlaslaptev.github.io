@@ -17,3 +17,13 @@ blockquote {
 .articles {
 	margin-left: -15px;
 }
+
+.foto {
+	width: auto;
+	max-height: 500px;
+}
+
+.item-foto {
+	padding-top: 15px;
+	display: inline-block;
+}
