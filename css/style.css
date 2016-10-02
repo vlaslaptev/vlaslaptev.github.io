@@ -1,29 +1,29 @@
 body {
-	background-color: #fff;
-	text-rendering: optimizeLegibility;
-	margin-top: 70px;
+    background-color: #fff;
+    text-rendering: optimizeLegibility;
+    margin-top: 70px;
 }
 
 blockquote {
-	color: #333;
-	font-family: 'Open Sans';
-	font-size: 16px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 17px;
+    color: #333;
+    font-family: 'Open Sans', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 17px;
 }
 
 .articles {
-	margin-left: -15px;
+    margin-left: -15px;
 }
 
 .foto {
-	width: auto;
-	max-height: 500px;
+    width: auto;
+    max-height: 500px;
 }
 
 .item-foto {
-	padding-top: 15px;
-	display: inline-block;
+    padding-top: 15px;
+    display: inline-block;
 }
