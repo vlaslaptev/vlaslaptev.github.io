@@ -1,0 +1,85 @@
+html,
+body {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+body {
+    background: #ffffff;
+    padding: 0;
+    font: 30px 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+button:focus {outline:0;}
+
+a {
+    text-decoration: none;
+    color: #009688;
+}
+
+.barley-break {
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    color: #009688;
+    border: 5px solid #009688;
+    padding: 5px;
+}
+
+.barley-break td {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-shadow: rgba(255, 255, 255, 0.2) 1px 1px 2px;
+    cursor: pointer;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.barley-break td:hover {
+    background: #b2dfdb;
+}
+
+.barley-break td.empty {
+    cursor: default;
+}
+
+.barley-break td.empty:hover {
+    background: #ffffff;
+}
+
+.scoreboard {
+    color: #009688;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+
+.container {
+    margin: 40px 0 0 0;
+    padding: 0;
+}
+
+.scoreboard {
+    right: 150px;
+}
+
+.time {
+    border: none;
+    color: #009688;
+    font: 30px 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+button {
+    color: #009688;
+    font: 15px 'Open Sans', Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    border: none;
+    background-color: #ffffff;
+    float: left;
+}
+
+.p-info {
+    color: #009688;
+    font: 14px 'Open Sans', Helvetica, Arial, sans-serif;
+}
