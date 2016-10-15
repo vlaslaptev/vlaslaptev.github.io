@@ -1,47 +1,29 @@
-var currentState = '';
+
+var updateState = function(state) {
+    if (!state) return;
+    $(".content").load('html/' + state.page + '.html');
+};
+
 $(document).ready(function () {
-    setInterval(checkLocalState, 500);
+    window.addEventListener('hashchange', updateState);
+    window.addEventListener('popstate', function(e) {
+        updateState(e.state);
+    });
+
+    var state = {
+        page: 'news'
+    };
+    history.pushState(state, '', state.page);
+    updateState(state);
 });
 
-function buildURL(anchor) {
-    return anchor.substr(1);
-}
+$(".navbar-nav").click(function(e) {
+    if (e.target.tagName !== 'A') return;
 
-function escapeString(string) {
-    return string.replace("/", "\\/");
-}
-
-$(".nav a").on("click", function (e) {
     e.preventDefault();
-    e.stopPropagation();
-    var href = $(this).attr('href');
-    updateState(href);
-    $(".nav").find(".active").removeClass("active");
-    $(this).parent().addClass("active");
-
-
-    $(".content").load('html/' + href + '.html');
+    var state = {
+        page: e.target.getAttribute('href')
+    };
+    history.pushState(state, '', state.page);
+    updateState(state);
 });
-
-function checkLocalState() {
-    if (document.location.hash && document.location.hash != currentState) {
-        currentState = document.location.hash;
-        if (currentState) {
-            $(".content").load('html/' + buildURL(currentState) + '.html');
-            $(".nav").find(".active").removeClass("active");
-            $(".nav a[href=" + escapeString(buildURL(currentState) + "]")).parent().addClass("active");
-        }
-    }
-}
-
-function updateState(state) {
-    state = "#" + state;
-    if (state == currentState) {
-        return false;
-    }
-    if (document.location.hash != state) {
-        document.location.hash = state;
-    }
-    currentState = state;
-    return true;
-}
