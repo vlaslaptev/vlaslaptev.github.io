@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Hanoi-tower</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+
+<button class="restart">Новая игра</button>
+<button class="info">?</button>
+
+<div class="info-alert info-alert-hidden" id="info-alert">
+    <button class="close">&#xD7;</button>
+    <h3>Ханойская башня</h3>
+
+    <p>Ханойская башня является одной из популярных головоломок XIX века. Даны три стержня, на один из которых нанизаны
+        кольца, причем кольца отличаются размером и лежат меньшее на большем. Задача состоит в том, чтобы
+        перенести пирамиду за наименьшее число ходов на другой стержень.</p>
+    <br/>
+
+    <p class="p-info"><a target="_blank" href="https://github.com/vlaslaptev/Hanoi-tower">View source code in github.com</a>
+        &nbsp;&nbsp;version - 0.01 | 2016</p>
+</div>
+
+<div class="container">
+    <div class="flex-container tower" id="tower-1">
+        <div class="base"></div>
+        <div class="round round-4" id="4_round"></div>
+        <div class="round round-3" id="3_round"></div>
+        <div class="round round-2" id="2_round"></div>
+        <div class="round round-1" id="1_round"></div>
+    </div>
+
+    <div class="flex-container tower" id="tower-2">
+        <div class="base"></div>
+    </div>
+
+    <div class="flex-container tower" id="tower-3">
+        <div class="base"></div>
+    </div>
+</div>
+
+<div class="score-board">
+    <div id="steps">Ходы - <span id="count">0</span></div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

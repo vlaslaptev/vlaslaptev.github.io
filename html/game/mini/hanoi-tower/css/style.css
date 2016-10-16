@@ -1,0 +1,149 @@
+html,
+body {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+body {
+    background: #ffffff;
+    padding: 0;
+    font: 30px 'Open Sans', Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #2196f3;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 5px;
+}
+
+.tower {
+    min-height: 200px;
+}
+
+.round {
+    height: 20px;
+    border-radius: 15px 15px;
+    margin: 1px;
+}
+
+.round-1 {
+    width: 100px;
+    background-color: #f44336;
+}
+
+.round-2 {
+    width: 120px;
+    background-color: #009688;
+}
+
+.round-3 {
+    width: 140px;
+    background-color: #ff9800;
+}
+
+.round-4 {
+    width: 160px;
+    background-color: #2196f3;
+}
+
+.base {
+    background-color: #333;
+    width: 170px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+#steps {
+    color: #333333;
+}
+
+.score-board {
+    position: fixed;
+    top: 60px;
+}
+
+.restart {
+    width: 170px;
+    height: 30px;
+    background-color: #009688;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font: 15px 'Open Sans', Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+.restart:hover {
+    background-color: #008175;
+}
+
+.info {
+    border: 1px solid #008175;
+    border-radius: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    color: #009688;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+.info-alert-hidden {
+    display: none;
+}
+
+.info-alert {
+    position: absolute;
+    margin: 0 auto;
+    height: 40%;
+    width: 70%;
+    max-width: 800px;
+    max-height: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    top: 150px;
+    box-shadow: 1px 1px 16px 1px rgba(177, 177, 177, 0.75);
+    font: 15px 'Open Sans', Helvetica, Arial, sans-serif;
+    padding: 30px;
+}
+
+.p-info {
+    bottom: 30px;
+    right: 60px;
+    position: absolute;
+    font: 15px 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.close {
+    border: none;
+    color: #333333;
+    background-color: white;
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+    font-size: 35px;
+    font-weight: 100;
+    float: right;
+}
