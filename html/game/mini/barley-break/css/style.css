@@ -3,15 +3,17 @@ body {
     width: 90%;
     height: 90%;
     margin: 0 auto;
+    background-color: #eee;
 }
 
 body {
-    background: #ffffff;
     padding: 0;
     font: 30px 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
-button:focus {outline:0;}
+button:focus {
+    outline: 0;
+}
 
 a {
     text-decoration: none;
@@ -30,11 +32,11 @@ a {
 .barley-break td {
     width: 100px;
     height: 100px;
-    border-radius: 10px;
     text-shadow: rgba(255, 255, 255, 0.2) 1px 1px 2px;
     cursor: pointer;
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
+    border: 1px solid;
 }
 
 .barley-break td:hover {
@@ -43,6 +45,7 @@ a {
 
 .barley-break td.empty {
     cursor: default;
+    background-color: #006b61;
 }
 
 .barley-break td.empty:hover {
@@ -58,6 +61,7 @@ a {
 .container {
     margin: 40px 0 0 0;
     padding: 0;
+    background-color: #eee;
 }
 
 .scoreboard {
@@ -68,15 +72,20 @@ a {
     border: none;
     color: #009688;
     font: 30px 'Open Sans', Helvetica, Arial, sans-serif;
+    background-color: #eee;
 }
 
 button {
     color: #009688;
     font: 15px 'Open Sans', Helvetica, Arial, sans-serif;
     cursor: pointer;
-    border: none;
     background-color: #ffffff;
-    float: left;
+    float: right;
+    margin-right: 200px;
+    width: 130px;
+    height: 32px;
+    border: 1px solid;
+    border-radius: 5px;
 }
 
 .p-info {

@@ -11,7 +11,7 @@ $(document).ready(function () {
     });
 
     var state = {
-        page: 'news'
+        page: 'games'
     };
     history.pushState(state, '', state.page);
     updateState(state);
