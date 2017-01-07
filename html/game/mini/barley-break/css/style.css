@@ -1,6 +1,5 @@
 html,
 body {
-    width: 90%;
     height: 90%;
     margin: 0 auto;
     background-color: #eee;
@@ -9,6 +8,11 @@ body {
 body {
     padding: 0;
     font: 30px 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
 }
 
 button:focus {
@@ -25,7 +29,7 @@ a {
     margin: auto;
     text-align: center;
     color: #009688;
-    border: 5px solid #009688;
+    border: 3px solid #006b61;
     padding: 5px;
 }
 
@@ -36,7 +40,7 @@ a {
     cursor: pointer;
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
-    border: 1px solid;
+    border: 3px solid #006b61;
 }
 
 .barley-break td:hover {
@@ -49,7 +53,7 @@ a {
 }
 
 .barley-break td.empty:hover {
-    background: #ffffff;
+    background: #006b61;
 }
 
 .scoreboard {
@@ -62,6 +66,8 @@ a {
     margin: 40px 0 0 0;
     padding: 0;
     background-color: #eee;
+    width: 100%;
+    height: 650px;
 }
 
 .scoreboard {
@@ -75,20 +81,46 @@ a {
     background-color: #eee;
 }
 
-button {
-    color: #009688;
+.restart {
+    color: #ffffff;
     font: 15px 'Open Sans', Helvetica, Arial, sans-serif;
     cursor: pointer;
-    background-color: #ffffff;
-    float: right;
-    margin-right: 200px;
-    width: 130px;
-    height: 32px;
-    border: 1px solid;
-    border-radius: 5px;
+    background-color: #009688;
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-weight: 100;
+    margin: 30px auto;
+    display: block;
+}
+
+.restart:hover {
+    background-color: #006b61;
 }
 
 .p-info {
     color: #009688;
     font: 14px 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.border {
+    display: table;
+    margin: 0 auto;
+    border: 20px solid #009688;
+}
+
+.victory {
+    color: #ffffff;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 107, 97, 0.99);
+    text-align: center;
+    padding: 56px 0 0 0;
+    position: fixed;
+    top: 232px;
+    box-shadow: 0 16px 1px 0 rgba(0, 0, 0, 0.38);
+}
+
+.victory_none {
+    display: none;
 }

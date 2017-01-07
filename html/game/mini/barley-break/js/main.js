@@ -65,6 +65,7 @@ $_td.on("click", function () {
 $(".restart").click(function () {
     $(".barley-break").html(baseState);
     $_td = $("td");
+    show_hide_label_victory(false);
     randomFill();
     newGame();
 });
@@ -78,10 +79,7 @@ function checkVictory() {
         }
     });
 
-    if (_count == 15) {
-        return true;
-    }
-    return false;
+    return _count == 15;
 }
 
 $(document).keydown(function (e) {
@@ -105,12 +103,22 @@ function keyArrowDown(keyCode) {
 
 
             if ($("#16").text() == "" && checkVictory()) {
-                $(".victory").text("Победа!");
+                show_hide_label_victory(true);
                 pause_play_clock();
                 game = false;
             }
         }
     }
+}
+
+function show_hide_label_victory(is_show) {
+    var $_victory_label = $(".victory");
+    if (!is_show) {
+        $_victory_label.addClass("victory_none");
+        return;
+    }
+    $_victory_label.text("Победа!");
+    $_victory_label.removeClass("victory_none");
 }
 
 function getMovedCellId(emptyCell, kode) {
