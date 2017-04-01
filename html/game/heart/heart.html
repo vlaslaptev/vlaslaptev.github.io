@@ -94,7 +94,7 @@
         $newdiv = $('<div/>').css({
             'width':divsize+'px',
             'height':divsize+'px',
-            'background': 'url(http://medcitynews.com/wp-content/uploads/heart3.jpg) no-repeat'
+            'background': 'url(http://playstationeu.i.lithium.com/html/images/smilies/Heart.png) no-repeat'
         });
 
         // make position sensitive to size and document's width
@@ -107,19 +107,43 @@
             'top':posy+'px',
             'display':'none'
         }).appendTo( 'body' ).fadeIn(100).delay(2000).fadeOut(500, function(){
-            $(this).remove();
             makeDiv();
             makeDiv();
         });
     })();
 
-    (function makeDiv2(){
+    (function makeDiv3(){
         // vary size for fun
-        var divsize = ((Math.random()*100) + 50).toFixed();
+        var divsize = ((Math.random()*150) + 150).toFixed();
         $newdiv = $('<div/>').css({
             'width':divsize+'px',
             'height':divsize+'px',
-            'background': 'url(http://medcitynews.com/wp-content/uploads/heart3.jpg) no-repeat'
+            'background': 'url(http://www.greenheartgames.com/wp-content/uploads/2012/11/greenheartlogosq-150x150.png) no-repeat'
+        });
+
+        // make position sensitive to size and document's width
+        var posx = (Math.random() * ($(document).width() - divsize)).toFixed();
+        var posy = (Math.random() * ($(document).height() - divsize)).toFixed();
+
+        $newdiv.css({
+            'position':'absolute',
+            'left':posx+'px',
+            'top':posy+'px',
+            'display':'none'
+        }).appendTo( 'body' ).fadeIn(100).delay(4000).fadeOut(500, function(){
+            $(this).remove();
+            makeDiv3();
+            makeDiv3();
+        });
+    })();
+
+    (function makeDiv2(){
+        // vary size for fun
+        var divsize = ((Math.random()*150) + 150).toFixed();
+        $newdiv = $('<div/>').css({
+            'width':divsize+'px',
+            'height':divsize+'px',
+            'background': 'url(http://emojipedia-us.s3.amazonaws.com/cache/db/c2/dbc26ddfa2215ca384b825076b01529e.png) no-repeat'
         });
 
         // make position sensitive to size and document's width
@@ -137,6 +161,8 @@
             makeDiv2();
         });
     })();
+
+
 
 
  $(".heart-btn").click(function() {
