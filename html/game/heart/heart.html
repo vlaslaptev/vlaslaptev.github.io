@@ -88,13 +88,18 @@
 
 <script>
 
+    var hearts = ['http://playstationeu.i.lithium.com/html/images/smilies/Heart.png',
+        "http://www.greenheartgames.com/wp-content/uploads/2012/11/greenheartlogosq-150x150.png",
+    "http://emojipedia-us.s3.amazonaws.com/cache/db/c2/dbc26ddfa2215ca384b825076b01529e.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqDwpiepOphnnV1qJY77Z4dyn3RLdCvt6Kx_F7C0ExK1sGI4rM8w",
+    "https://www.google.ru/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj0_uXJ9YPTAhXIF5oKHUSFDQQQjRwIBw&url=https%3A%2F%2Fbalancebydeborahhutton.com.au%2Fbittersweet-2%2F&psig=AFQjCNG_qCLO_cTfv2lKDVWwmTjSkOs9bw&ust=1491158333881589",
+    "https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-heart-128.png"];
     (function makeDiv(){
         // vary size for fun
-        var divsize = ((Math.random()*100) + 50).toFixed();
+        var divsize = ((Math.random()*180) + 180).toFixed();
         $newdiv = $('<div/>').css({
             'width':divsize+'px',
             'height':divsize+'px',
-            'background': 'url(http://playstationeu.i.lithium.com/html/images/smilies/Heart.png) no-repeat'
+            'background': 'url('+hearts[Math.floor(Math.random()*hearts.length)]+') no-repeat'
         });
 
         // make position sensitive to size and document's width
@@ -114,11 +119,11 @@
 
     (function makeDiv3(){
         // vary size for fun
-        var divsize = ((Math.random()*150) + 150).toFixed();
+        var divsize = ((Math.random()*180) + 180).toFixed();
         $newdiv = $('<div/>').css({
             'width':divsize+'px',
             'height':divsize+'px',
-            'background': 'url(http://www.greenheartgames.com/wp-content/uploads/2012/11/greenheartlogosq-150x150.png) no-repeat'
+            'background': 'url('+hearts[Math.floor(Math.random()*hearts.length)]+') no-repeat'
         });
 
         // make position sensitive to size and document's width
@@ -134,31 +139,6 @@
             $(this).remove();
             makeDiv3();
             makeDiv3();
-        });
-    })();
-
-    (function makeDiv2(){
-        // vary size for fun
-        var divsize = ((Math.random()*150) + 150).toFixed();
-        $newdiv = $('<div/>').css({
-            'width':divsize+'px',
-            'height':divsize+'px',
-            'background': 'url(http://emojipedia-us.s3.amazonaws.com/cache/db/c2/dbc26ddfa2215ca384b825076b01529e.png) no-repeat'
-        });
-
-        // make position sensitive to size and document's width
-        var posx = (Math.random() * ($(document).width() - divsize)).toFixed();
-        var posy = (Math.random() * ($(document).height() - divsize)).toFixed();
-
-        $newdiv.css({
-            'position':'absolute',
-            'left':posx+'px',
-            'top':posy+'px',
-            'display':'none'
-        }).appendTo( 'body' ).fadeIn(100).delay(3000).fadeOut(500, function(){
-            $(this).remove();
-            makeDiv2();
-            makeDiv2();
         });
     })();
 
