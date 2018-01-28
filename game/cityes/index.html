@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Города</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<script src="cityes.js"></script>
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="game">
+			<input onkeypress="keypress(event)" type="text" autofocus="true" id="game-input" placeholder="Введите город">
+			<button id="enter">Ввод</button>
+		</div>
+		<div class="history">
+			<p>История</p>
+			<textarea readonly value="wefe" id="history-input" cols="30" rows="50"></textarea>
+		</div>
+	</div>
+	<script src="game.js"></script>
+</body>
+</html>
