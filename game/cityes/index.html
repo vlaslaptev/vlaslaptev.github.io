@@ -9,16 +9,21 @@
 </head>
 <body>
 
-	<div class="wrapper">
-		<div class="game">
-			<input onkeypress="keypress(event)" type="text" autofocus="true" id="game-input" placeholder="Введите город">
-			<button id="enter">Ввод</button>
+<div class="wrapper">
+	<div class="game">
+		<input onkeypress="keypress(event)" type="text" autofocus="true" id="game-input" placeholder="Введите город">
+		<button id="enter">Ввод</button>
+	</div>
+	<div class="history">
+		<div class="col">
+			<label for="history-input">История</label>
+			<textarea readonly id="history-input" cols="30" rows="50"></textarea>
 		</div>
-		<div class="history">
-			<p>История</p>
-			<textarea readonly value="wefe" id="history-input" cols="30" rows="50"></textarea>
+		<div class="col">
+			<p class="wiki-text" id="wiki-text"></p>
 		</div>
 	</div>
-	<script src="game.js"></script>
+</div>
+<script src="game.js"></script>
 </body>
 </html>
