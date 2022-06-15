@@ -15,13 +15,6 @@ canvas {
     z-index: -1;
 }
 
-.background-filter {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(6, 6, 6, 0.87);
-    z-index: 1;
-    position: absolute;
-}
 
 /*
     main
@@ -30,20 +23,25 @@ canvas {
 body {
     text-rendering: optimizeLegibility;
     font-size: 28px;
-    font-family: 'Bungee', cursive;
-    background-color: #a7a4a4;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    font-family: 'Arial';
+    background-color: #1b1a1a;
+}
+
+img {
+    width: 400pt;
+    margin-left: 20pt;
+    border: solid white 10pt;
+    margin: 10pt;
 }
 
 a {
-    color: #4DD0E1;
+    color: #bfbfbf;
     text-decoration: none;
 }
 
 a:focus, a:hover {
     cursor: pointer;
-    color: #42899a;
+    color: #bfbfbf;
     text-decoration: none;
 }
 
@@ -60,9 +58,10 @@ a:focus, a:hover {
 
 .json {
     color: #bfbfbf;
-    margin-top: 200px;
+    margin-top: 20pt;
+    margin-left: 10pt;
     font-size: 18px;
-    font-family: 'Bungee', cursive;
+    margin-bottom: 40pt;
 }
 
 .curly-bracket-start {
