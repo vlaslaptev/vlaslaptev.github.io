@@ -41,7 +41,7 @@
         padding: 8px 16px;
         border: 1px solid #ccc;
         border-radius: 4px;
-        background-color: #8953de;
+        background-color: #d661db;
         color: white;
         cursor: pointer;
     }
@@ -55,6 +55,34 @@
     #randomVerb {
         font-weight: bold;
     }
+    table {
+        border-collapse: collapse;
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    .error {
+        color: #ee3434;
+    }
+    td, th {
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f1f1f1;
+        font-weight: bold;
+    }
+    .footer-dev {
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-dev p {
+        font-size: 13px;
+        color: #777777;
+        padding: 5px;
+    }
 </style>
 <head>
     <meta charset="UTF-8">
@@ -62,8 +90,10 @@
     <title>Простой сайт с полем ввода и кнопкой</title>
 </head>
 <body>
+<h1 style="margin-top: 5px; text-align: end">&#129412;</h1>
 <div class="out-container">
     <p id="randomVerbText">Введите три формы глагола </p>
+    <br>
     <p id="randomVerb"></p>
 </div>
 <div class="main">
@@ -166,15 +196,16 @@
         let inputString = inputElement.value.trim();
         const result = document.getElementById("result");
         let text;
+        const para = document.createElement("td");
+        const tr = document.createElement("tr");
         if (verbs.get(randomVerbElement.textContent).toLowerCase() === inputString.toLowerCase()) {
             text = i + ". " + "Верно! " + randomVerbElement.textContent + " " + inputString;
         } else {
-            text  = i + ". " + "Ошибка! " + randomVerbElement.textContent + " Вы ввели " + inputString + " . Должно быть " + verbs.get(randomVerbElement.textContent)
+            text  = i + ". " + "Неверно! " + randomVerbElement.textContent + " Вы ввели <b>" + inputString + "</b>. Должно быть <b>" + verbs.get(randomVerbElement.textContent) + "</b>"
+            tr.classList.add('error');
         }
-        const para = document.createElement("td");
-        const tr = document.createElement("tr");
-        const node = document.createTextNode(text);
-        para.appendChild(node);
+
+        para.innerHTML = text;
         tr.appendChild(para)
         result.appendChild(tr);
         inputElement.value = "";
@@ -193,5 +224,9 @@
     });
     window.addEventListener("DOMContentLoaded", displayRandomVerb);
 </script>
+
+<div class="footer-dev">
+    <p>© 2023 Хиппопотамы и Ко, ООО. We won't give you cookies because we ate them. Все права защищены и охраняются боевыми дельфинами.</p>
+</div>
 </body>
 </html>
