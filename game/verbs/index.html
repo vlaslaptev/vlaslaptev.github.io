@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<style>
+    body {
+        min-height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    .main {
+        display: flex;
+        justify-content: center;
+    }
+    .out-container {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .results {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .input-container {
+        display: flex;
+        align-items: center;
+        width: 500px;
+        font-weight: bold;
+    }
+    input[type="text"] {
+        font-size: 19px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 10px;
+        width: 100%;
+        max-width: 450px;
+    }
+    button {
+        font-size: 19px;
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #8953de;
+        color: white;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #441a8d;
+    }
+    p {
+        font-size: 19px;
+        margin-left: 5px;
+    }
+    #randomVerb {
+        font-weight: bold;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простой сайт с полем ввода и кнопкой</title>
+</head>
+<body>
+<div class="out-container">
+    <p id="randomVerbText">Введите три формы глагола </p>
+    <p id="randomVerb"></p>
+</div>
+<div class="main">
+    <div class="input-container">
+        <input type="text" id="inputText" placeholder="Введите три формы глагола">
+        <button id="submitButton">Проверить</button>
+    </div>
+</div>
+<div class="results">
+    <table id="result">
+        <tr><td>Ниже история введенных глаголов. Обновите страницу чтобы сбросить историю</td></tr>
+    </table>
+</div>
+
+<script>
+    let i = 0;
+    const verbs = new Map();
+    verbs.set("Быть", "Be Was Been")
+    verbs.set("Становиться", "Become Became Become")
+    verbs.set("Начинать", "Begin Began Begun")
+    verbs.set("Сломить, перебить", "Break Broke Broken")
+    verbs.set("Приносить", "Bring Brought Brought")
+    verbs.set("Строить", "Build Built Built")
+    verbs.set("Гореть", "Burn Burnt Burnt")
+    verbs.set("Купить", "Buy Bought Bought")
+    verbs.set("Поймать", "Catch Caught Caught")
+    verbs.set("Выбирать", "Choose Chose Chosen")
+    verbs.set("Приходить", "Come Came Come")
+    verbs.set("Стоить", "Cost Cost Cost")
+    verbs.set("Резать", "Cut Cut Cut")
+    verbs.set("Делать", "Do Did Done")
+    verbs.set("Рисовать", "Draw Drew Drawn")
+    verbs.set("Пить", "Drink Drank Drunk")
+    verbs.set("Водить (машину)", "Drive Drove Driven")
+    verbs.set("Есть", "Eat Ate Eaten")
+    verbs.set("Падать", "Fall Fell Fallen")
+    verbs.set("Чувствовать", "Feel Felt Felt")
+    verbs.set("Драться", "Fight Fought Fought")
+    verbs.set("Искать", "Find Found Found")
+    verbs.set("Летать", "Fly Flew Flown")
+    verbs.set("Забывать", "Forget Forgot Forgotten")
+    verbs.set("Получать", "Get Got Got")
+    verbs.set("Давать", "Give Gave Given")
+    verbs.set("Идти (Уходить)", "Go Went Gone")
+    verbs.set("Иметь", "Have Had Had")
+    verbs.set("Слышать", "Hear Heard Heard")
+    verbs.set("Повредить (Болеть)", "Hurt Hurt Hurt")
+    verbs.set("Держать", "Keep Kept Kept")
+    verbs.set("Знать", "Know Known Known")
+    verbs.set("Учиться", "Learn Learnt Learnt")
+    verbs.set("Оставлять (Покидать)", "Leave Left Left")
+    verbs.set("Одалживать", "Lend Lent Lent")
+    verbs.set("Зажигать (Светить)", "Light Lit Lit")
+    verbs.set("Терять", "Lose Lost Lost")
+    verbs.set("Делать", "Make Made Made")
+    verbs.set("Иметь в виду", "Mean Meant Meant")
+    verbs.set("Платить", "Pay Paid Paid")
+    verbs.set("Класть (Помещать)", "Put Put Put")
+    verbs.set("Читать", "Read Read Read")
+    verbs.set("Ездить", "Ride Rode Ridden")
+    verbs.set("Бегать", "Run Ran Run")
+    verbs.set("Сказать", "Say Said Said")
+    verbs.set("Видеть", "See Saw Seen")
+    verbs.set("Продавать", "Sell Sold Sold")
+    verbs.set("Отправлять", "Send Sent Sent")
+    verbs.set("Петь", "Sing Sang Sung")
+    verbs.set("Сидеть", "Sit Sat Sat")
+    verbs.set("Спать", "Sleep Slept Slept")
+    verbs.set("Говорить", "Speak Spoke Spoken")
+    verbs.set("Называть по буквам", "Spell Spelt Spelt")
+    verbs.set("Тратить", "Spend Spent Spent")
+    verbs.set("Стоять", "Stand Stood Stood")
+    verbs.set("Воровать", "Steal Stole Stolen")
+    verbs.set("Приклеивать Втыкать", "Stick Stuck Stuck")
+    verbs.set("Плавать", "Swim Swam Swum")
+    verbs.set("Брать", "Take Took Taken")
+    verbs.set("Учить", "Teach Taught Taught")
+    verbs.set("Рассказывать", "Tell Told Told")
+    verbs.set("Думать", "Think Thought Thought")
+    verbs.set("Бросать", "Throw Threw Thrown")
+    verbs.set("Понимать", "Understand Understood Understood")
+    verbs.set("Будить", "Wake Woke Woken")
+    verbs.set("Носить", "Wear Wore Worn")
+    verbs.set("Победить", "Win Won Won")
+    verbs.set("Писать", "Write Wrote Written")
+
+    console.log(verbs)
+    const submitButton = document.getElementById('submitButton');
+    let inputElement = document.getElementById("inputText");
+    const randomVerbElement = document.getElementById("randomVerb");
+    let verbsList = Array.from(verbs.keys());
+    verbsList.sort(() => Math.random() - 0.5);
+
+    function displayRandomVerb() {
+        randomVerbElement.textContent = verbsList[Math.min(i, verbsList.length - 1)];
+        i++;
+    }
+
+    function checkVerb() {
+        let inputString = inputElement.value;
+        const result = document.getElementById("result");
+        let text;
+        if (verbs.get(randomVerbElement.textContent).toLowerCase() === inputString.toLowerCase()) {
+            text = i + ". " + "Верно! " + randomVerbElement.textContent + " " + inputString;
+        } else {
+            text  = i + ". " + "Ошибка! " + randomVerbElement.textContent + " Вы ввели " + inputString + " . Должно быть " + verbs.get(randomVerbElement.textContent)
+        }
+        const para = document.createElement("td");
+        const tr = document.createElement("tr");
+        const node = document.createTextNode(text);
+        para.appendChild(node);
+        tr.appendChild(para)
+        result.appendChild(tr);
+        inputElement.value = "";
+        displayRandomVerb();
+    }
+
+    inputElement.addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            checkVerb();
+        }
+    });
+
+    submitButton.addEventListener('click', () => {
+        checkVerb();
+    });
+    window.addEventListener("DOMContentLoaded", displayRandomVerb);
+</script>
+</body>
+</html>
