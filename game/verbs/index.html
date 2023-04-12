@@ -162,7 +162,7 @@
     }
 
     function checkVerb() {
-        let inputString = inputElement.value;
+        let inputString = inputElement.value.trim();
         const result = document.getElementById("result");
         let text;
         if (verbs.get(randomVerbElement.textContent).toLowerCase() === inputString.toLowerCase()) {
