@@ -7,26 +7,31 @@
         margin-right: 10px;
         font-family: Arial, sans-serif;
     }
+
     .main {
         display: flex;
         justify-content: center;
     }
+
     .out-container {
-        margin-top: 40px;
+        margin-top: 30px;
         display: flex;
         justify-content: center;
     }
+
     .results {
         margin-top: 20px;
         display: flex;
         justify-content: center;
     }
+
     .input-container {
         display: flex;
         align-items: center;
         width: 500px;
         font-weight: bold;
     }
+
     input[type="text"] {
         font-size: 19px;
         padding: 8px;
@@ -36,6 +41,7 @@
         width: 100%;
         max-width: 450px;
     }
+
     button {
         font-size: 19px;
         padding: 8px 16px;
@@ -45,43 +51,66 @@
         color: white;
         cursor: pointer;
     }
+
     button:hover {
         background-color: #441a8d;
     }
+
     p {
         font-size: 19px;
         margin-left: 5px;
     }
+
     #randomVerb {
         font-weight: bold;
     }
+
     table {
         border-collapse: collapse;
     }
+
     tr:nth-child(even) {
         background-color: #f2f2f2;
     }
+
     .error {
         color: #ee3434;
     }
+
     td, th {
         padding: 8px;
         text-align: left;
     }
+
     th {
         background-color: #f1f1f1;
         font-weight: bold;
     }
+
     .footer-dev {
         position: fixed;
         bottom: 0;
         text-align: center;
-        width: 100%;
+        width: 96%;
     }
+
     .footer-dev p {
         font-size: 13px;
         color: #777777;
         padding: 5px;
+    }
+
+    .tablo p {
+        font-size: 12px;
+        margin: 15px;
+    }
+
+    td a {
+        color: black;
+    }
+
+    .score {
+        font-size: 13px;
     }
 </style>
 <head>
@@ -90,7 +119,15 @@
     <title>Простой сайт с полем ввода и кнопкой</title>
 </head>
 <body>
-<h1 style="margin-top: 5px; text-align: end">&#129412;</h1>
+<h1 style="margin: 5px; text-align: end">&#129412;</h1>
+<div class="tablo" style="display: flex;justify-content: center; ">
+    <p class="tablo-text">Верно
+        <sc class="score" id="success-score">0</sc>
+    </p>
+    <p class="tablo-text">Неверно
+        <sc class="score" id="error-score">0</sc>
+    </p>
+</div>
 <div class="out-container">
     <p id="randomVerbText">Введите три формы глагола </p>
     <br>
@@ -104,13 +141,17 @@
 </div>
 <div class="results">
     <table id="result">
-        <tr><td>Ниже история введенных глаголов. Обновите страницу чтобы сбросить историю</td></tr>
+        <tr id="first-row">
+            <td style="text-align: center">Ниже история введенных глаголов. Обновите страницу чтобы сбросить историю или нажмите <a id="new-game" href="#">Новая игра</a></td>
+        </tr>
     </table>
 </div>
 
 <script>
-    let i = 0;
-    const verbs = new Map();
+    let i = 0
+    let successScore = 0
+    let errorScore = 0
+    const verbs = new Map()
     verbs.set("Быть", "Be Was Been")
     verbs.set("Становиться", "Become Became Become")
     verbs.set("Начинать", "Begin Began Begun")
@@ -124,7 +165,7 @@
     verbs.set("Приходить", "Come Came Come")
     verbs.set("Стоить", "Cost Cost Cost")
     verbs.set("Резать", "Cut Cut Cut")
-    verbs.set("Делать", "Do Did Done")
+    verbs.set("Делать (работу)", "Do Did Done")
     verbs.set("Рисовать", "Draw Drew Drawn")
     verbs.set("Пить", "Drink Drank Drunk")
     verbs.set("Водить (машину)", "Drive Drove Driven")
@@ -148,7 +189,7 @@
     verbs.set("Одалживать", "Lend Lent Lent")
     verbs.set("Зажигать (Светить)", "Light Lit Lit")
     verbs.set("Терять", "Lose Lost Lost")
-    verbs.set("Делать", "Make Made Made")
+    verbs.set("Делать (производить)", "Make Made Made")
     verbs.set("Иметь в виду", "Mean Meant Meant")
     verbs.set("Платить", "Pay Paid Paid")
     verbs.set("Класть (Помещать)", "Put Put Put")
@@ -181,48 +222,82 @@
     verbs.set("Писать", "Write Wrote Written")
 
     console.log(verbs)
-    const submitButton = document.getElementById('submitButton');
-    let inputElement = document.getElementById("inputText");
-    const randomVerbElement = document.getElementById("randomVerb");
-    let verbsList = Array.from(verbs.keys());
-    verbsList.sort(() => Math.random() - 0.5);
+    const submitButton = document.getElementById('submitButton')
+    const newGameButton = document.getElementById('new-game')
+    let inputElement = document.getElementById("inputText")
+    const randomVerbElement = document.getElementById("randomVerb")
+    const successScoreElement = document.getElementById("success-score")
+    const errorScoreElement = document.getElementById("error-score")
+    let verbsList = Array.from(verbs.keys())
+    verbsList.sort(() => Math.random() - 0.5)
+    inputElement.addEventListener("input", () => {
+        inputElement.style.backgroundColor = 'white'
+    })
 
     function displayRandomVerb() {
-        randomVerbElement.textContent = verbsList[Math.min(i, verbsList.length - 1)];
-        i++;
+        randomVerbElement.textContent = verbsList[Math.min(i, verbsList.length - 1)]
+        i++
+    }
+
+    function displayScore(successScore, errorScore) {
+        successScoreElement.textContent = successScore
+        errorScoreElement.textContent = errorScore
+    }
+
+    function newGame() {
+        i = 0
+        successScore = 0
+        errorScore = 0
+        verbsList.sort(() => Math.random() - 0.5)
+        displayScore(successScore, errorScore)
+        displayRandomVerb()
+        const resultElement = document.getElementById("result")
+        const firstRow = document.getElementById("first-row")
+        resultElement.innerHTML = ''
+        resultElement.appendChild(firstRow)
     }
 
     function checkVerb() {
-        let inputString = inputElement.value.trim();
-        const result = document.getElementById("result");
-        let text;
-        const para = document.createElement("td");
-        const tr = document.createElement("tr");
+        let inputString = inputElement.value.trim()
+        if (inputString === "") {
+            inputElement.style.backgroundColor = '#ffb9c7'
+            return;
+        }
+        const result = document.getElementById("result")
+        let text
+        const para = document.createElement("td")
+        const tr = document.createElement("tr")
         if (verbs.get(randomVerbElement.textContent).toLowerCase() === inputString.toLowerCase()) {
-            text = i + ". " + "Верно! " + randomVerbElement.textContent + " " + inputString;
+            text = i + ". " + "Верно! " + randomVerbElement.textContent + " " + inputString
+            successScore++
         } else {
-            text  = i + ". " + "Неверно! " + randomVerbElement.textContent + " Вы ввели <b>" + inputString + "</b>. Должно быть <b>" + verbs.get(randomVerbElement.textContent) + "</b>"
-            tr.classList.add('error');
+            text = i + ". " + "Неверно! " + randomVerbElement.textContent + " Вы ввели <b>" + inputString + "</b>. Должно быть <b>" + verbs.get(randomVerbElement.textContent) + "</b>"
+            tr.classList.add('error')
+            errorScore++
         }
 
-        para.innerHTML = text;
+        para.innerHTML = text
         tr.appendChild(para)
-        result.appendChild(tr);
-        inputElement.value = "";
-        displayRandomVerb();
+        result.appendChild(tr)
+        inputElement.value = ""
+        displayScore(successScore, errorScore)
+        displayRandomVerb()
     }
 
-    inputElement.addEventListener("keydown", function(event) {
+    inputElement.addEventListener("keydown", function (event) {
         if (event.key === "Enter") {
-            event.preventDefault();
-            checkVerb();
+            event.preventDefault()
+            checkVerb()
         }
     });
 
     submitButton.addEventListener('click', () => {
-        checkVerb();
-    });
-    window.addEventListener("DOMContentLoaded", displayRandomVerb);
+        checkVerb()
+    })
+    newGameButton.addEventListener('click', () => {
+        newGame()
+    })
+    window.addEventListener("DOMContentLoaded", displayRandomVerb)
 </script>
 
 <div class="footer-dev">
