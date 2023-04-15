@@ -234,6 +234,15 @@
         inputElement.style.backgroundColor = 'white'
     })
 
+    function stat() {
+        fetch("http://207.246.80.76:8081/stat")
+            .then(function (response) {
+                return response.json();
+            })
+            .catch(function (error) {
+                console.log("Error: " + error);
+            });
+    }
     function displayRandomVerb() {
         randomVerbElement.textContent = verbsList[Math.min(i, verbsList.length - 1)]
         i++
@@ -298,6 +307,7 @@
         newGame()
     })
     window.addEventListener("DOMContentLoaded", displayRandomVerb)
+    window.addEventListener("DOMContentLoaded", stat)
 </script>
 
 <div class="footer-dev">
