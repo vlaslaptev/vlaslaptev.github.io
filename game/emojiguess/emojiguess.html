@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emotion Learning Tool</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  #wrapper {
+    width: 90%;
+    max-width: 640px;
+    background: white;
+    border-radius: 32px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  #emoji {
+    font-size: 100px;
+    text-align: center;
+    padding: 20px;
+  }
+  input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin: 30px;
+    font-size: 16px;
+    border: 1px;
+    border-radius: 10px;
+    border: 2px #bdbdbd solid;
+  }
+  #dictionary {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    min-width: 350px;
+    font-size: 20px;
+    margin: 10px auto;
+  }
+  #toggle {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background-color: #0070e8;
+    color: white;
+    border-radius: 4px;
+    max-width: 300px;
+    min-width: 230px;
+    min-height: 40px;
+    margin: 30px auto;
+  }
+</style>
+</head>
+<body>
+<button id="toggle">Hide\Show Dictionary</button>
+<div id="dictionary">
+  <div><span style="font-size: 30px; vertical-align: middle;">😠</span> - Angry - Злой</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">🥱</span> - Bored - Скучающий</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">🥶</span> - Cold - Холодный</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">😨</span> - Frightened - Испуганный</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">😊</span> - Happy - Счастливый</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">🥵</span> - Hot - Жаркий</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">😋</span> - Hungry - Голодный</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">☹️</span> - Sad - Грустный</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">😤</span> - Stressed - Напряженный</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">🚰</span> - Thirsty - Испытывающий жажду</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">😫</span> - Tired - Уставший</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">😟</span> - Worried - Обеспокоенный</div>
+</div>
+<br>
+<div id="wrapper">
+  <div id="emoji">😊</div>
+  <input type="text" id="input" placeholder="Type the emotion in English...">
+</div>
+
+<script>
+  const emotions = {
+    '😠😠': 'angry',
+    '🥱🥱': 'bored',
+    '🥶❄️': 'cold',
+    '😨🕷️': 'frightened',
+    '😊🎉': 'happy',
+    '🥵🌞': 'hot',
+    '😋🍔': 'hungry',
+    '☹️💔': 'sad',
+    '😤💻': 'stressed',
+    '🚰🌵': 'thirsty',
+    '🏃‍♂️😫': 'tired',
+    '😟📅': 'worried'
+  };
+  const emojiElement = document.getElementById('emoji');
+  const inputElement = document.getElementById('input');
+  const dictionary = document.getElementById('dictionary');
+  const toggle = document.getElementById('toggle');
+
+  function getRandomEmoji() {
+    const keys = Object.keys(emotions);
+    return keys[Math.floor(Math.random() * keys.length)];
+  }
+
+  function checkEmotion() {
+    if (emotions[emojiElement.textContent] === inputElement.value.trim().toLowerCase()) {
+      emojiElement.textContent = getRandomEmoji();
+      inputElement.value = '';
+    } else {
+      alert('Try again!');
+    }
+  }
+
+  inputElement.addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+      checkEmotion();
+    }
+  });
+
+  toggle.addEventListener('click', function() {
+    dictionary.style.display = dictionary.style.display === 'none' ? 'block' : 'none';
+  });
+
+  emojiElement.textContent = getRandomEmoji();
+</script>
+</body>
+</html>
