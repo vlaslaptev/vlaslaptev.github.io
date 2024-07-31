@@ -21,6 +21,7 @@
     border-radius: 32px;
     overflow: hidden;
     margin: 0 auto;
+    padding: 5px;
   }
   #emoji {
     font-size: 100px;
@@ -42,7 +43,13 @@
     border-radius: 8px;
     min-width: 350px;
     font-size: 20px;
-    margin: 10px auto;
+    margin: 10px;
+    position: absolute;
+    min-width: 420px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px -2px 20px 9px #a3aee2;
   }
   #toggle {
     cursor: pointer;
@@ -55,24 +62,30 @@
     min-width: 230px;
     min-height: 40px;
     margin: 30px auto;
+    margin-bottom: 70px;
   }
 </style>
 </head>
 <body>
 <button id="toggle">Hide\Show Dictionary</button>
 <div id="dictionary">
-  <div><span style="font-size: 30px; vertical-align: middle;">😠</span> - Angry - Злой</div>
-  <div><span style="font-size: 30px; vertical-align: middle;">🥱</span> - Bored - Скучающий</div>
-  <div><span style="font-size: 30px; vertical-align: middle;">🥶</span> - Cold - Холодный</div>
-  <div><span style="font-size: 30px; vertical-align: middle;">😨</span> - Frightened - Испуганный</div>
-  <div><span style="font-size: 30px; vertical-align: middle;">😊</span> - Happy - Счастливый</div>
-  <div><span style="font-size: 30px; vertical-align: middle;">🥵</span> - Hot - Жаркий</div>
-  <div><span style="font-size: 30px; vertical-align: middle;">😋</span> - Hungry - Голодный</div>
-  <div><span style="font-size: 30px; vertical-align: middle;">☹️</span> - Sad - Грустный</div>
-  <div><span style="font-size: 30px; vertical-align: middle;">😤</span> - Stressed - Напряженный</div>
-  <div><span style="font-size: 30px; vertical-align: middle;">🚰</span> - Thirsty - Испытывающий жажду</div>
-  <div><span style="font-size: 30px; vertical-align: middle;">😫</span> - Tired - Уставший</div>
-  <div><span style="font-size: 30px; vertical-align: middle;">😟</span> - Worried - Обеспокоенный</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">😠 😠</span> - Angry - Злой</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">🥱 🥱</span> - Bored - Скучающий</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">🥶 ❄️</span> - Cold - Холодный</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">😨 🕷️</span> - Frightened - Испуганный</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">😊 🎉</span> - Happy - Счастливый</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">🥵 🌞</span> - Hot - Жаркий</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">😋 🍔</span> - Hungry - Голодный</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">☹️ 💔</span> - Sad - Грустный</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">😤 💻</span> - Stressed - Напряженный</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">🚰 🌵</span> - Thirsty - Испытывающий жажду</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">🏃‍♂️ 😫</span> - Tired - Уставший</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">😟 📅</span> - Worried - Обеспокоенный</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">🤗 🤗</span> - Excited - Взволнованный</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">😜 😜</span> - Playful - Игривый</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">😭 😭</span> - Crying - Плачущий</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">😡 💥</span> - Furious - Взбешенный</div>
+  <div><span style="font-size: 30px; vertical-align: middle;">😍 💕</span> - In Love - Влюбленный</div>
 </div>
 <br>
 <div id="wrapper">
@@ -93,7 +106,12 @@
     '😤💻': 'stressed',
     '🚰🌵': 'thirsty',
     '🏃‍♂️😫': 'tired',
-    '😟📅': 'worried'
+    '😟📅': 'worried',
+    '🤗🤗': 'excited',
+    '😜😜': 'playful',
+    '😭😭': 'crying',
+    '😡💥': 'furious',
+    '😍💕': 'in Love'
   };
   const emojiElement = document.getElementById('emoji');
   const inputElement = document.getElementById('input');
