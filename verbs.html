@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irregular Verbs Table</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        h1 {
+            color: #4a4a4a;
+            font-weight: 600;
+        }
+        h2 {
+            color: #4a4a4a;
+            font-weight: 300;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            border: none;
+            padding: 12px 16px;
+            text-align: left;
+        }
+        th {
+            background-color: #777888;
+            color: white;
+            font-weight: 500;
+        }
+        tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+        tr:nth-child(odd) {
+            background-color: #eeeeee;
+        }
+        .verb-row {
+            font-weight: 600;
+            background-color: #e9ecef;
+            text-transform: capitalize;
+            border-top-style: solid;
+            border-bottom: solid #bebebe 1px;
+        }
+        .example-row {
+            background-color: #ffffff;
+            font-weight: 400;
+            color: #455666;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Irregular Verbs Table</h1>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>♥</th>
+            <th>Present</th>
+            <th>Past Simple</th>
+            <th>Past Participle</th>
+            <th>Translate</th>
+        </tr>
+    </thead>
+    <tbody id="verb-table-body">
+        <!-- Verb rows will be inserted here by JavaScript -->
+    </tbody>
+</table>
+
+<h2>* AI generated *</h2>
+
+<script>
+    const verbs = {
+        "verbs": [
+    {
+      "Present": "be",
+      "PastSimple": "was/were",
+      "PastParticiple": "been",
+      "translate": "быть",
+      "PresentExample": "I am a student.",
+      "PastSimpleExample": "She was a student last year",
+      "PastParticipleExample": "I have been a student for two years."
+    },
+    {
+      "Present": "become",
+      "PastSimple": "became",
+      "PastParticiple": "become",
+      "translate": "становиться",
+      "PresentExample": "He becomes tired in the evening.",
+      "PastSimpleExample": "She became a doctor last year.",
+      "PastParticipleExample": "They have become good friends."
+    },
+    {
+      "Present": "begin",
+      "PastSimple": "began",
+      "PastParticiple": "begun",
+      "translate": "начинать",
+      "PresentExample": "I begin my work at 9 AM.",
+      "PastSimpleExample": "We began the project last month.",
+      "PastParticipleExample": "He has begun a new job."
+    },
+    {
+      "Present": "break",
+      "PastSimple": "broke",
+      "PastParticiple": "broken",
+      "translate": "ломать",
+      "PresentExample": "She breaks the rules sometimes.",
+      "PastSimpleExample": "He broke his leg last summer.",
+      "PastParticipleExample": "They have broken the window."
+    },
+    {
+      "Present": "bring",
+      "PastSimple": "brought",
+      "PastParticiple": "brought",
+      "translate": "приносить",
+      "PresentExample": "Can you bring me a book?",
+      "PastSimpleExample": "She brought flowers for her mom.",
+      "PastParticipleExample": "They have brought some drinks."
+    },
+    {
+      "Present": "build",
+      "PastSimple": "built",
+      "PastParticiple": "built",
+      "translate": "строить",
+      "PresentExample": "They build houses for a living.",
+      "PastSimpleExample": "He built this house himself.",
+      "PastParticipleExample": "She has built a successful career."
+    },
+    {
+      "Present": "buy",
+      "PastSimple": "bought",
+      "PastParticiple": "bought",
+      "translate": "покупать",
+      "PresentExample": "I buy groceries every week.",
+      "PastSimpleExample": "She bought a new car.",
+      "PastParticipleExample": "They have bought a new house."
+    },
+    {
+      "Present": "can",
+      "PastSimple": "could",
+      "PastParticiple": "-",
+      "translate": "мочь",
+      "PresentExample": "I can speak three languages.",
+      "PastSimpleExample": "She could play the piano when she was young.",
+      "PastParticipleExample": "-"
+    },
+    {
+      "Present": "catch",
+      "PastSimple": "caught",
+      "PastParticiple": "caught",
+      "translate": "ловить",
+      "PresentExample": "He catches the ball easily.",
+      "PastSimpleExample": "She caught a cold last week.",
+      "PastParticipleExample": "They have caught many fish."
+    },
+    {
+      "Present": "come",
+      "PastSimple": "came",
+      "PastParticiple": "come",
+      "translate": "приходить",
+      "PresentExample": "She comes to visit every weekend.",
+      "PastSimpleExample": "He came to the party late.",
+      "PastParticipleExample": "They have come to our house many times."
+    },
+    {
+      "Present": "cost",
+      "PastSimple": "cost",
+      "PastParticiple": "cost",
+      "translate": "стоить",
+      "PresentExample": "This book costs $20.",
+      "PastSimpleExample": "The ticket cost $50.",
+      "PastParticipleExample": "The repairs have cost a lot."
+    },
+    {
+      "Present": "do",
+      "PastSimple": "did",
+      "PastParticiple": "done",
+      "translate": "делать",
+      "PresentExample": "I do my homework every day.",
+      "PastSimpleExample": "She did her homework last night.",
+      "PastParticipleExample": "They have done a great job."
+    },
+    {
+      "Present": "drink",
+      "PastSimple": "drank",
+      "PastParticiple": "drunk",
+      "translate": "пить",
+      "PresentExample": "He drinks coffee every morning.",
+      "PastSimpleExample": "She drank too much at the party.",
+      "PastParticipleExample": "They have drunk all the juice."
+    },
+    {
+      "Present": "drive",
+      "PastSimple": "drove",
+      "PastParticiple": "driven",
+      "translate": "водить",
+      "PresentExample": "She drives to work every day.",
+      "PastSimpleExample": "He drove us to the airport.",
+      "PastParticipleExample": "They have driven many miles."
+    },
+    {
+      "Present": "eat",
+      "PastSimple": "ate",
+      "PastParticiple": "eaten",
+      "translate": "есть",
+      "PresentExample": "I eat breakfast at 8 AM.",
+      "PastSimpleExample": "She ate all her vegetables.",
+      "PastParticipleExample": "They have eaten already."
+    },
+    {
+      "Present": "fall",
+      "PastSimple": "fell",
+      "PastParticiple": "fallen",
+      "translate": "падать",
+      "PresentExample": "He falls asleep quickly.",
+      "PastSimpleExample": "She fell down the stairs.",
+      "PastParticipleExample": "They have fallen in love."
+    },
+    {
+      "Present": "feel",
+      "PastSimple": "felt",
+      "PastParticiple": "felt",
+      "translate": "чувствовать",
+      "PresentExample": "I feel happy today.",
+      "PastSimpleExample": "She felt sick yesterday.",
+      "PastParticipleExample": "They have felt better since the medicine."
+    },
+    {
+      "Present": "find",
+      "PastSimple": "found",
+      "PastParticiple": "found",
+      "translate": "находить",
+      "PresentExample": "He finds a new book every week.",
+      "PastSimpleExample": "She found her keys under the couch.",
+      "PastParticipleExample": "They have found a new apartment."
+    },
+    {
+      "Present": "fly",
+      "PastSimple": "flew",
+      "PastParticiple": "flown",
+      "translate": "летать",
+      "PresentExample": "Birds fly in the sky.",
+      "PastSimpleExample": "She flew to Paris last month.",
+      "PastParticipleExample": "They have flown many times."
+    },
+    {
+      "Present": "forget",
+      "PastSimple": "forgot",
+      "PastParticiple": "forgotten",
+      "translate": "забывать",
+      "PresentExample": "I forget my keys sometimes.",
+      "PastSimpleExample": "He forgot his wallet at home.",
+      "PastParticipleExample": "They have forgotten the way home."
+    },
+    {
+      "Present": "get",
+      "PastSimple": "got",
+      "PastParticiple": "got",
+      "translate": "получать",
+      "PresentExample": "She gets up early every day.",
+      "PastSimpleExample": "He got a new job last week.",
+      "PastParticipleExample": "They have got a new car."
+    },
+    {
+      "Present": "give",
+      "PastSimple": "gave",
+      "PastParticiple": "given",
+      "translate": "давать",
+      "PresentExample": "I give her a book for her birthday.",
+      "PastSimpleExample": "She gave him a hug.",
+      "PastParticipleExample": "They have given me a present."
+    },
+    {
+      "Present": "go",
+      "PastSimple": "went",
+      "PastParticiple": "gone",
+      "translate": "идти",
+      "PresentExample": "He goes to the gym every day.",
+      "PastSimpleExample": "She went to the store yesterday.",
+      "PastParticipleExample": "They have gone on vacation."
+    },
+    {
+      "Present": "have",
+      "PastSimple": "had",
+      "PastParticiple": "had",
+      "translate": "иметь",
+      "PresentExample": "I have a big family.",
+      "PastSimpleExample": "She had a cat when she was young.",
+      "PastParticipleExample": "They have had a good day."
+    },
+    {
+      "Present": "hear",
+      "PastSimple": "heard",
+      "PastParticiple": "heard",
+      "translate": "слышать",
+      "PresentExample": "I hear music every day.",
+      "PastSimpleExample": "She heard a noise last night.",
+      "PastParticipleExample": "They have heard this song before."
+    },
+    {
+      "Present": "know",
+      "PastSimple": "knew",
+      "PastParticiple": "known",
+      "translate": "знать",
+      "PresentExample": "He knows how to cook.",
+      "PastSimpleExample": "She knew the answer to the question.",
+      "PastParticipleExample": "They have known each other for years."
+    },
+    {
+      "Present": "leave",
+      "PastSimple": "left",
+      "PastParticiple": "left",
+      "translate": "покидать",
+      "PresentExample": "She leaves for work at 8 AM.",
+      "PastSimpleExample": "He left his phone at home.",
+      "PastParticipleExample": "They have left the party early."
+    },
+    {
+      "Present": "lose",
+      "PastSimple": "lost",
+      "PastParticiple": "lost",
+      "translate": "терять",
+      "PresentExample": "I lose my keys often.",
+      "PastSimpleExample": "She lost her way in the forest.",
+      "PastParticipleExample": "They have lost their passports."
+    },
+    {
+      "Present": "make",
+      "PastSimple": "made",
+      "PastParticiple": "made",
+      "translate": "делать",
+      "PresentExample": "He makes breakfast every morning.",
+      "PastSimpleExample": "She made a cake for the party.",
+      "PastParticipleExample": "They have made many friends."
+    },
+    {
+      "Present": "meet",
+      "PastSimple": "met",
+      "PastParticiple": "met",
+      "translate": "встречать",
+      "PresentExample": "I meet my friends every weekend.",
+      "PastSimpleExample": "She met him at the park.",
+      "PastParticipleExample": "They have met many interesting people."
+    },
+    {
+      "Present": "pay",
+      "PastSimple": "paid",
+      "PastParticiple": "paid",
+      "translate": "платить",
+      "PresentExample": "He pays the bills every month.",
+      "PastSimpleExample": "She paid for the dinner.",
+      "PastParticipleExample": "They have paid their debts."
+    },
+    {
+      "Present": "put",
+      "PastSimple": "put",
+      "PastParticiple": "put",
+      "translate": "класть",
+      "PresentExample": "I put my books on the shelf.",
+      "PastSimpleExample": "She put her keys in her bag.",
+      "PastParticipleExample": "They have put away their toys."
+    },
+    {
+      "Present": "read",
+      "PastSimple": "read",
+      "PastParticiple": "read",
+      "translate": "читать",
+      "PresentExample": "He reads a book every night.",
+      "PastSimpleExample": "She read the instructions carefully.",
+      "PastParticipleExample": "They have read many books."
+    },
+    {
+      "Present": "run",
+      "PastSimple": "ran",
+      "PastParticiple": "run",
+      "translate": "бегать",
+      "PresentExample": "I run every morning.",
+      "PastSimpleExample": "She ran a marathon last year.",
+      "PastParticipleExample": "They have run many miles."
+    },
+    {
+      "Present": "say",
+      "PastSimple": "said",
+      "PastParticiple": "said",
+      "translate": "сказать",
+      "PresentExample": "He says hello to everyone.",
+      "PastSimpleExample": "She said she would come.",
+      "PastParticipleExample": "They have said it’s time to go."
+    },
+    {
+      "Present": "see",
+      "PastSimple": "saw",
+      "PastParticiple": "seen",
+      "translate": "видеть",
+      "PresentExample": "I see my friends often.",
+      "PastSimpleExample": "She saw a movie last night.",
+      "PastParticipleExample": "They have seen that movie before."
+    },
+    {
+      "Present": "send",
+      "PastSimple": "sent",
+      "PastParticiple": "sent",
+      "translate": "посылать",
+      "PresentExample": "He sends emails every day.",
+      "PastSimpleExample": "She sent a letter to her friend.",
+      "PastParticipleExample": "They have sent many packages."
+    },
+    {
+      "Present": "sing",
+      "PastSimple": "sang",
+      "PastParticiple": "sung",
+      "translate": "петь",
+      "PresentExample": "I sing in the shower.",
+      "PastSimpleExample": "She sang a beautiful song.",
+      "PastParticipleExample": "They have sung many times."
+    },
+    {
+      "Present": "sit",
+      "PastSimple": "sat",
+      "PastParticiple": "sat",
+      "translate": "сидеть",
+      "PresentExample": "He sits at his desk all day.",
+      "PastSimpleExample": "She sat on the couch.",
+      "PastParticipleExample": "They have sat through many meetings."
+    },
+    {
+      "Present": "sleep",
+      "PastSimple": "slept",
+      "PastParticiple": "slept",
+      "translate": "спать",
+      "PresentExample": "I sleep eight hours every night.",
+      "PastSimpleExample": "She slept well last night.",
+      "PastParticipleExample": "They have slept for hours."
+    },
+    {
+      "Present": "speak",
+      "PastSimple": "spoke",
+      "PastParticiple": "spoken",
+      "translate": "говорить",
+      "PresentExample": "He speaks three languages.",
+      "PastSimpleExample": "She spoke at the conference.",
+      "PastParticipleExample": "They have spoken to the manager."
+    },
+    {
+      "Present": "spend",
+      "PastSimple": "spent",
+      "PastParticiple": "spent",
+      "translate": "тратить",
+      "PresentExample": "I spend time with my family.",
+      "PastSimpleExample": "She spent money on clothes.",
+      "PastParticipleExample": "They have spent a lot of time together."
+    },
+    {
+      "Present": "stand",
+      "PastSimple": "stood",
+      "PastParticiple": "stood",
+      "translate": "стоять",
+      "PresentExample": "He stands next to the door.",
+      "PastSimpleExample": "She stood up for her rights.",
+      "PastParticipleExample": "They have stood in line for an hour."
+    },
+    {
+      "Present": "swim",
+      "PastSimple": "swam",
+      "PastParticiple": "swum",
+      "translate": "плавать",
+      "PresentExample": "I swim every summer.",
+      "PastSimpleExample": "She swam across the lake.",
+      "PastParticipleExample": "They have swum in the ocean."
+    },
+    {
+      "Present": "teach",
+      "PastSimple": "taught",
+      "PastParticiple": "taught",
+      "translate": "учить",
+      "PresentExample": "He teaches math at school.",
+      "PastSimpleExample": "She taught me how to cook.",
+      "PastParticipleExample": "They have taught many students."
+    },
+    {
+      "Present": "take",
+      "PastSimple": "took",
+      "PastParticiple": "taken",
+      "translate": "брать",
+      "PresentExample": "I take the bus to work.",
+      "PastSimpleExample": "She took a photo of the sunset.",
+      "PastParticipleExample": "They have taken many trips."
+    },
+    {
+      "Present": "tell",
+      "PastSimple": "told",
+      "PastParticiple": "told",
+      "translate": "рассказывать",
+      "PresentExample": "He tells stories to his kids.",
+      "PastSimpleExample": "She told me a secret.",
+      "PastParticipleExample": "They have told us the truth."
+    },
+    {
+      "Present": "think",
+      "PastSimple": "thought",
+      "PastParticiple": "thought",
+      "translate": "думать",
+      "PresentExample": "I think about my future.",
+      "PastSimpleExample": "She thought about her decision.",
+      "PastParticipleExample": "They have thought about it carefully."
+    },
+    {
+      "Present": "understand",
+      "PastSimple": "understood",
+      "PastParticiple": "understood",
+      "translate": "понимать",
+      "PresentExample": "He understands the situation.",
+      "PastSimpleExample": "She understood the instructions.",
+      "PastParticipleExample": "They have understood the problem."
+    },
+    {
+      "Present": "wake",
+      "PastSimple": "woke",
+      "PastParticiple": "woken",
+      "translate": "будить",
+      "PresentExample": "I wake up early every day.",
+      "PastSimpleExample": "She woke up late today.",
+      "PastParticipleExample": "They have woken up from their nap."
+    },
+    {
+      "Present": "wear",
+      "PastSimple": "wore",
+      "PastParticiple": "worn",
+      "translate": "носить",
+      "PresentExample": "He wears a suit to work.",
+      "PastSimpleExample": "She wore a beautiful dress.",
+      "PastParticipleExample": "They have worn those shoes for a week."
+    },
+    {
+      "Present": "win",
+      "PastSimple": "won",
+      "PastParticiple": "won",
+      "translate": "выигрывать",
+      "PresentExample": "I win at video games often.",
+      "PastSimpleExample": "She won the first prize.",
+      "PastParticipleExample": "They have won many games."
+    },
+    {
+      "Present": "write",
+      "PastSimple": "wrote",
+      "PastParticiple": "written",
+      "translate": "писать",
+      "PresentExample": "He writes stories in his free time.",
+      "PastSimpleExample": "She wrote a letter to her friend.",
+      "PastParticipleExample": "They have written many books."
+    }
+  ]
+    };
+
+    const verbTableBody = document.getElementById('verb-table-body');
+
+    verbs.verbs.forEach((verb, index) => {
+        // Create a row for the verb
+        const verbRow = document.createElement('tr');
+        verbRow.classList.add('verb-row');
+        verbRow.innerHTML = `
+            <td>${index + 1}</td>
+            <td>${verb.Present}</td>
+            <td>${verb.PastSimple}</td>
+            <td>${verb.PastParticiple}</td>
+            <td>${verb.translate}</td>
+        `;
+        verbTableBody.appendChild(verbRow);
+
+        // Create rows for the examples
+        const presentExampleRow = document.createElement('tr');
+        presentExampleRow.classList.add('example-row');
+        presentExampleRow.innerHTML = `<td colspan="5"><strong>Present:</strong> ${verb.PresentExample}</td>`;
+        verbTableBody.appendChild(presentExampleRow);
+
+        const pastSimpleExampleRow = document.createElement('tr');
+        pastSimpleExampleRow.classList.add('example-row');
+        pastSimpleExampleRow.innerHTML = `<td colspan="5"><strong>Past Simple:</strong> ${verb.PastSimpleExample}</td>`;
+        verbTableBody.appendChild(pastSimpleExampleRow);
+
+        const pastParticipleExampleRow = document.createElement('tr');
+        pastParticipleExampleRow.classList.add('example-row');
+        pastParticipleExampleRow.innerHTML = `<td colspan="5"><strong>Past Perfect:</strong> ${verb.PastParticipleExample}</td>`;
+        verbTableBody.appendChild(pastParticipleExampleRow);
+    });
+</script>
+
+</body>
+</html>
