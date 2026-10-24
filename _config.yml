@@ -1,0 +1,7 @@
+# GitHub Pages serves the generated pages; authoring files stay in Git only.
+exclude:
+  - content
+  - templates
+  - tools
+  - README.md
+

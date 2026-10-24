@@ -1,0 +1,218 @@
+[
+  {
+    "slug": "project-tab-icons",
+    "name": "Project Tab Icons",
+    "order": 10,
+    "theme": "tabs",
+    "platform": "IntelliJ IDEA · macOS",
+    "description": {
+      "en": "Your projects. Instantly recognizable.",
+      "ru": "Каждый проект узнаётся с первого взгляда."
+    },
+    "detail": {
+      "en": "Icons, colors, groups and Git context. A familiar workspace, made your own.",
+      "ru": "Иконки, цвета, группы и Git. Привычное рабочее пространство — в вашем стиле."
+    },
+    "status": {
+      "en": "Available on GitHub",
+      "ru": "Доступен на GitHub"
+    },
+    "url": {
+      "en": "/projects/project-tab-icons/",
+      "ru": "/projects/project-tab-icons/ru/"
+    },
+    "images": [
+      {
+        "src": "/projects/project-tab-icons/assets/project-tabs-overview.png",
+        "alt": {
+          "en": "Five recognizable projects in one IntelliJ IDEA window",
+          "ru": "Пять узнаваемых проектов в одном окне IntelliJ IDEA"
+        }
+      }
+    ],
+    "card": {
+      "icon": "/projects/project-tab-icons/assets/logo-512.png",
+      "description": {
+        "en": "Icons, colors and Git context for your IntelliJ IDEA project tabs.",
+        "ru": "Иконки, цвета и Git-контекст для вкладок проектов в IntelliJ IDEA."
+      },
+      "interface": "/projects/project-tab-icons/assets/appearance-settings.png"
+    },
+    "availability": "available"
+  },
+  {
+    "slug": "beewbe",
+    "name": "beewbe",
+    "order": 20,
+    "theme": "beewbe",
+    "platform": "iPhone · iOS 27+",
+    "description": {
+      "en": "A little friend. Always close.",
+      "ru": "Маленький друг. Всегда рядом."
+    },
+    "detail": {
+      "en": "A pet, a cozy home and a little care. All in your Home Screen widget.",
+      "ru": "Питомец, уютный дом и немного заботы. Прямо в виджете на домашнем экране."
+    },
+    "status": {
+      "en": "In development",
+      "ru": "В разработке"
+    },
+    "url": {
+      "en": "/projects/beewbe/",
+      "ru": "/projects/beewbe/ru/"
+    },
+    "images": [
+      {
+        "src": "/projects/beewbe/assets/pet-mint.png",
+        "alt": {
+          "en": "A mint-colored beewbe pet wearing a pink beret",
+          "ru": "Мятный питомец beewbe в розовом берете"
+        }
+      }
+    ],
+    "card": {
+      "icon": "/projects/beewbe/assets/pet-mint.png",
+      "description": {
+        "en": "A little pet, a cozy home. A tamagotchi in your iPhone widget.",
+        "ru": "Маленький питомец и уютный дом. Тамагочи в виджете на iPhone."
+      },
+      "interface": "/projects/beewbe/assets/widget-{lang}.png"
+    },
+    "availability": "development"
+  },
+  {
+    "slug": "batterygrid",
+    "name": "BatteryGrid",
+    "order": 30,
+    "theme": "battery",
+    "platform": "macOS 14+",
+    "description": {
+      "en": "Every charge. In its place.",
+      "ru": "Каждый заряд — на своём месте."
+    },
+    "detail": {
+      "en": "Your devices, arranged your way. Native battery widgets for your Mac.",
+      "ru": "Ваши устройства в удобном порядке. Нативные виджеты заряда для Mac."
+    },
+    "status": {
+      "en": "Public release in preparation",
+      "ru": "Готовится к выпуску"
+    },
+    "url": {
+      "en": "/projects/batterygrid/",
+      "ru": "/projects/batterygrid/"
+    },
+    "link_note": {
+      "en": "",
+      "ru": "Страница на английском"
+    },
+    "images": [
+      {
+        "src": "/projects/batterygrid/assets/palette-polar.png",
+        "alt": {
+          "en": "BatteryGrid Polar widget with illustrative device battery levels",
+          "ru": "Виджет BatteryGrid в палитре Polar с демонстрационными значениями заряда"
+        }
+      }
+    ],
+    "card": {
+      "icon": "/projects/batterygrid/assets/app-icon.png",
+      "description": {
+        "en": "The charge of your devices, together in a native widget for Mac.",
+        "ru": "Заряд ваших устройств в одном месте. Нативный виджет для Mac."
+      },
+      "interface": "/projects/batterygrid/assets/size-medium-compact.png"
+    },
+    "availability": "development"
+  },
+  {
+    "slug": "pet-project",
+    "name": "Pet Project",
+    "order": 40,
+    "theme": "pet",
+    "platform": "iPhone · iOS 27+",
+    "description": {
+      "en": "Big ambitions. Small widget.",
+      "ru": "Большие планы. Маленький виджет."
+    },
+    "detail": {
+      "en": "Launch a product, build your team and grow a company. One small decision at a time.",
+      "ru": "Выпускайте продукт, собирайте команду и развивайте компанию. Одно небольшое решение за другим."
+    },
+    "status": {
+      "en": "In development",
+      "ru": "В разработке"
+    },
+    "url": {
+      "en": "/projects/pet-project/",
+      "ru": "/projects/pet-project/ru/"
+    },
+    "images": [
+      {
+        "src": "/projects/pet-project/assets/office-l-{lang}.png",
+        "alt": {
+          "en": "Pet Project retro office widget with team and company actions",
+          "ru": "Виджет Pet Project с ретро-офисом, командой и действиями компании"
+        }
+      },
+      {
+        "src": "/projects/pet-project/assets/dashboard-l-{lang}.png",
+        "alt": {
+          "en": "Pet Project dashboard showing company progress",
+          "ru": "Пульт Pet Project с показателями компании"
+        }
+      }
+    ],
+    "card": {
+      "icon": "/projects/pet-project/assets/app-icon.png",
+      "description": {
+        "en": "Build a team. Grow a company. A small business game in your iPhone widget.",
+        "ru": "Собирайте команду и развивайте компанию. Игра о бизнесе в виджете на iPhone."
+      },
+      "interface": "/projects/pet-project/assets/office-l-{lang}.png"
+    },
+    "availability": "development"
+  },
+  {
+    "slug": "garnet",
+    "name": "Garnet",
+    "order": 5,
+    "theme": "garnet",
+    "platform": "iPhone · iOS 16+",
+    "description": {
+      "en": "Your cycle. Your own rhythm.",
+      "ru": "Ваш цикл. В вашем ритме."
+    },
+    "detail": {
+      "en": "A private cycle diary with observations, insights and optional encrypted sharing with someone you trust.",
+      "ru": "Личный дневник цикла: наблюдения, статистика и необязательный зашифрованный доступ для тех, кому вы доверяете."
+    },
+    "status": {
+      "en": "TestFlight beta",
+      "ru": "Бета в TestFlight"
+    },
+    "url": {
+      "en": "/projects/garnet/",
+      "ru": "/projects/garnet/ru/"
+    },
+    "images": [
+      {
+        "src": "/projects/garnet/assets/calendar-light-{lang}-iphone-pro-max-20261024.png",
+        "alt": {
+          "en": "Garnet cycle calendar in light appearance with illustrative entries",
+          "ru": "Календарь цикла Garnet в светлой теме с демонстрационными записями"
+        }
+      }
+    ],
+    "card": {
+      "icon": "/projects/garnet/assets/app-icon.png",
+      "description": {
+        "en": "A private cycle diary. Your observations, patterns and choice of what to share.",
+        "ru": "Личный дневник цикла. Наблюдения, статистика и выбор того, чем делиться."
+      },
+      "interface": "/projects/garnet/assets/calendar-light-{lang}-iphone-pro-max-20261024.png"
+    },
+    "availability": "beta"
+  }
+]

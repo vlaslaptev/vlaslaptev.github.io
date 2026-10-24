@@ -1,0 +1,1186 @@
+{
+  "/projects/project-tab-icons/assets/appearance-gallery.png": [
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/appearance-gallery-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/appearance-gallery-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/appearance-gallery-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/appearance-gallery-1200.webp",
+      "width": 1200
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/appearance-gallery-1411.webp",
+      "width": 1411
+    }
+  ],
+  "/projects/project-tab-icons/assets/appearance-presets.png": [
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/appearance-presets-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/appearance-presets-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/appearance-presets-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/appearance-presets-1200.webp",
+      "width": 1200
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/appearance-presets-1600.webp",
+      "width": 1600
+    }
+  ],
+  "/projects/project-tab-icons/assets/appearance-settings.png": [
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/appearance-settings-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/appearance-settings-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/appearance-settings-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/appearance-settings-1200.webp",
+      "width": 1200
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/appearance-settings-1800.webp",
+      "width": 1800
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/appearance-settings-2382.webp",
+      "width": 2382
+    }
+  ],
+  "/projects/project-tab-icons/assets/git-context.png": [
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/git-context-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/git-context-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/git-context-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/git-context-1200.webp",
+      "width": 1200
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/git-context-1600.webp",
+      "width": 1600
+    }
+  ],
+  "/projects/project-tab-icons/assets/git-settings.png": [
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/git-settings-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/git-settings-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/git-settings-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/git-settings-1200.webp",
+      "width": 1200
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/git-settings-1800.webp",
+      "width": 1800
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/git-settings-2400.webp",
+      "width": 2400
+    }
+  ],
+  "/projects/project-tab-icons/assets/group-decorations.png": [
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/group-decorations-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/group-decorations-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/group-decorations-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/group-decorations-1200.webp",
+      "width": 1200
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/group-decorations-1710.webp",
+      "width": 1710
+    }
+  ],
+  "/projects/project-tab-icons/assets/groups-settings.png": [
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/groups-settings-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/groups-settings-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/groups-settings-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/groups-settings-1200.webp",
+      "width": 1200
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/groups-settings-1800.webp",
+      "width": 1800
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/groups-settings-2400.webp",
+      "width": 2400
+    }
+  ],
+  "/projects/project-tab-icons/assets/icon-library.png": [
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/icon-library-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/icon-library-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/icon-library-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/icon-library-1200.webp",
+      "width": 1200
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/icon-library-1600.webp",
+      "width": 1600
+    }
+  ],
+  "/projects/project-tab-icons/assets/logo-512.png": [
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/logo-512-56.webp",
+      "width": 56
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/logo-512-112.webp",
+      "width": 112
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/logo-512-224.webp",
+      "width": 224
+    }
+  ],
+  "/projects/project-tab-icons/assets/project-tabs-overview.png": [
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/project-tabs-overview-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/project-tabs-overview-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/project-tabs-overview-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/project-tab-icons/assets/responsive/project-tabs-overview-1192.webp",
+      "width": 1192
+    }
+  ],
+  "/projects/beewbe/assets/pet-lavender.png": [
+    {
+      "src": "/projects/beewbe/assets/responsive/pet-lavender-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/pet-lavender-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/pet-lavender-640.webp",
+      "width": 640
+    }
+  ],
+  "/projects/beewbe/assets/pet-mint.png": [
+    {
+      "src": "/projects/beewbe/assets/responsive/pet-mint-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/pet-mint-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/pet-mint-640.webp",
+      "width": 640
+    }
+  ],
+  "/projects/beewbe/assets/pet-sky.png": [
+    {
+      "src": "/projects/beewbe/assets/responsive/pet-sky-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/pet-sky-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/pet-sky-640.webp",
+      "width": 640
+    }
+  ],
+  "/projects/beewbe/assets/widget-ar.png": [
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-ar-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-ar-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-ar-728.webp",
+      "width": 728
+    }
+  ],
+  "/projects/beewbe/assets/widget-de.png": [
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-de-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-de-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-de-728.webp",
+      "width": 728
+    }
+  ],
+  "/projects/beewbe/assets/widget-en.png": [
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-en-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-en-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-en-728.webp",
+      "width": 728
+    }
+  ],
+  "/projects/beewbe/assets/widget-es.png": [
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-es-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-es-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-es-728.webp",
+      "width": 728
+    }
+  ],
+  "/projects/beewbe/assets/widget-fr.png": [
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-fr-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-fr-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-fr-728.webp",
+      "width": 728
+    }
+  ],
+  "/projects/beewbe/assets/widget-hi.png": [
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-hi-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-hi-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-hi-728.webp",
+      "width": 728
+    }
+  ],
+  "/projects/beewbe/assets/widget-id.png": [
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-id-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-id-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-id-728.webp",
+      "width": 728
+    }
+  ],
+  "/projects/beewbe/assets/widget-ja.png": [
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-ja-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-ja-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-ja-728.webp",
+      "width": 728
+    }
+  ],
+  "/projects/beewbe/assets/widget-ko.png": [
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-ko-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-ko-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-ko-728.webp",
+      "width": 728
+    }
+  ],
+  "/projects/beewbe/assets/widget-pt-BR.png": [
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-pt-BR-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-pt-BR-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-pt-BR-728.webp",
+      "width": 728
+    }
+  ],
+  "/projects/beewbe/assets/widget-ru.png": [
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-ru-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-ru-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-ru-728.webp",
+      "width": 728
+    }
+  ],
+  "/projects/beewbe/assets/widget-zh-Hans.png": [
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-zh-Hans-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-zh-Hans-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/beewbe/assets/responsive/widget-zh-Hans-728.webp",
+      "width": 728
+    }
+  ],
+  "/projects/batterygrid/assets/app-icon.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/app-icon-56.webp",
+      "width": 56
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/app-icon-112.webp",
+      "width": 112
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/app-icon-224.webp",
+      "width": 224
+    }
+  ],
+  "/projects/batterygrid/assets/apple-desktop-tinted-large.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/apple-desktop-tinted-large-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/apple-desktop-tinted-large-385.webp",
+      "width": 385
+    }
+  ],
+  "/projects/batterygrid/assets/apple-desktop-tinted-medium.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/apple-desktop-tinted-medium-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/apple-desktop-tinted-medium-399.webp",
+      "width": 399
+    }
+  ],
+  "/projects/batterygrid/assets/apple-gallery-color.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/apple-gallery-color-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/apple-gallery-color-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/apple-gallery-color-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/apple-gallery-color-1200.webp",
+      "width": 1200
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/apple-gallery-color-1522.webp",
+      "width": 1522
+    }
+  ],
+  "/projects/batterygrid/assets/batterygrid-monochrome-detail.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/batterygrid-monochrome-detail-264.webp",
+      "width": 264
+    }
+  ],
+  "/projects/batterygrid/assets/batterygrid-monochrome-medium.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/batterygrid-monochrome-medium-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/batterygrid-monochrome-medium-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/batterygrid-monochrome-medium-688.webp",
+      "width": 688
+    }
+  ],
+  "/projects/batterygrid/assets/batterygrid-settings.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/batterygrid-settings-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/batterygrid-settings-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/batterygrid-settings-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/batterygrid-settings-980.webp",
+      "width": 980
+    }
+  ],
+  "/projects/batterygrid/assets/comparison-medium-compact.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/comparison-medium-compact-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/comparison-medium-compact-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/comparison-medium-compact-688.webp",
+      "width": 688
+    }
+  ],
+  "/projects/batterygrid/assets/comparison-trackpad-detail.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/comparison-trackpad-detail-264.webp",
+      "width": 264
+    }
+  ],
+  "/projects/batterygrid/assets/palette-classic-compact.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-classic-compact-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-classic-compact-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-classic-compact-688.webp",
+      "width": 688
+    }
+  ],
+  "/projects/batterygrid/assets/palette-classic.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-classic-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-classic-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-classic-688.webp",
+      "width": 688
+    }
+  ],
+  "/projects/batterygrid/assets/palette-monochrome-compact.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-monochrome-compact-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-monochrome-compact-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-monochrome-compact-688.webp",
+      "width": 688
+    }
+  ],
+  "/projects/batterygrid/assets/palette-monochrome.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-monochrome-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-monochrome-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-monochrome-688.webp",
+      "width": 688
+    }
+  ],
+  "/projects/batterygrid/assets/palette-polar-compact.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-polar-compact-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-polar-compact-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-polar-compact-688.webp",
+      "width": 688
+    }
+  ],
+  "/projects/batterygrid/assets/palette-polar.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-polar-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-polar-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/palette-polar-688.webp",
+      "width": 688
+    }
+  ],
+  "/projects/batterygrid/assets/scenario-icon-choices.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/scenario-icon-choices-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/scenario-icon-choices-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/scenario-icon-choices-688.webp",
+      "width": 688
+    }
+  ],
+  "/projects/batterygrid/assets/scenario-pinned.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/scenario-pinned-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/scenario-pinned-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/scenario-pinned-688.webp",
+      "width": 688
+    }
+  ],
+  "/projects/batterygrid/assets/scenario-selected.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/scenario-selected-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/scenario-selected-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/scenario-selected-688.webp",
+      "width": 688
+    }
+  ],
+  "/projects/batterygrid/assets/size-large-compact.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-large-compact-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-large-compact-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-large-compact-688.webp",
+      "width": 688
+    }
+  ],
+  "/projects/batterygrid/assets/size-large-regular.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-large-regular-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-large-regular-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-large-regular-688.webp",
+      "width": 688
+    }
+  ],
+  "/projects/batterygrid/assets/size-medium-compact.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-medium-compact-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-medium-compact-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-medium-compact-688.webp",
+      "width": 688
+    }
+  ],
+  "/projects/batterygrid/assets/size-medium-regular.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-medium-regular-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-medium-regular-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-medium-regular-688.webp",
+      "width": 688
+    }
+  ],
+  "/projects/batterygrid/assets/size-small-compact.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-small-compact-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-small-compact-328.webp",
+      "width": 328
+    }
+  ],
+  "/projects/batterygrid/assets/size-small-four-icons.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-small-four-icons-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-small-four-icons-328.webp",
+      "width": 328
+    }
+  ],
+  "/projects/batterygrid/assets/size-small-regular.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-small-regular-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-small-regular-328.webp",
+      "width": 328
+    }
+  ],
+  "/projects/batterygrid/assets/size-xl-landscape-compact.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-xl-landscape-compact-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-xl-landscape-compact-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-xl-landscape-compact-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-xl-landscape-compact-1200.webp",
+      "width": 1200
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-xl-landscape-compact-1440.webp",
+      "width": 1440
+    }
+  ],
+  "/projects/batterygrid/assets/size-xl-landscape-regular.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-xl-landscape-regular-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-xl-landscape-regular-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-xl-landscape-regular-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-xl-landscape-regular-1200.webp",
+      "width": 1200
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-xl-landscape-regular-1440.webp",
+      "width": 1440
+    }
+  ],
+  "/projects/batterygrid/assets/size-xl-portrait-compact.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-xl-portrait-compact-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-xl-portrait-compact-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-xl-portrait-compact-688.webp",
+      "width": 688
+    }
+  ],
+  "/projects/batterygrid/assets/size-xl-portrait-regular.png": [
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-xl-portrait-regular-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-xl-portrait-regular-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/batterygrid/assets/responsive/size-xl-portrait-regular-688.webp",
+      "width": 688
+    }
+  ],
+  "/projects/pet-project/assets/app-icon.png": [
+    {
+      "src": "/projects/pet-project/assets/responsive/app-icon-56.webp",
+      "width": 56
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/app-icon-112.webp",
+      "width": 112
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/app-icon-224.webp",
+      "width": 224
+    }
+  ],
+  "/projects/pet-project/assets/dashboard-l-en.png": [
+    {
+      "src": "/projects/pet-project/assets/responsive/dashboard-l-en-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/dashboard-l-en-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/dashboard-l-en-658.webp",
+      "width": 658
+    }
+  ],
+  "/projects/pet-project/assets/dashboard-l-ru.png": [
+    {
+      "src": "/projects/pet-project/assets/responsive/dashboard-l-ru-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/dashboard-l-ru-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/dashboard-l-ru-658.webp",
+      "width": 658
+    }
+  ],
+  "/projects/pet-project/assets/dashboard-xl-en.png": [
+    {
+      "src": "/projects/pet-project/assets/responsive/dashboard-xl-en-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/dashboard-xl-en-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/dashboard-xl-en-684.webp",
+      "width": 684
+    }
+  ],
+  "/projects/pet-project/assets/dashboard-xl-ru.png": [
+    {
+      "src": "/projects/pet-project/assets/responsive/dashboard-xl-ru-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/dashboard-xl-ru-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/dashboard-xl-ru-684.webp",
+      "width": 684
+    }
+  ],
+  "/projects/pet-project/assets/office-l-en.png": [
+    {
+      "src": "/projects/pet-project/assets/responsive/office-l-en-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/office-l-en-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/office-l-en-658.webp",
+      "width": 658
+    }
+  ],
+  "/projects/pet-project/assets/office-l-ru.png": [
+    {
+      "src": "/projects/pet-project/assets/responsive/office-l-ru-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/office-l-ru-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/office-l-ru-658.webp",
+      "width": 658
+    }
+  ],
+  "/projects/pet-project/assets/office-xl-en.png": [
+    {
+      "src": "/projects/pet-project/assets/responsive/office-xl-en-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/office-xl-en-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/office-xl-en-684.webp",
+      "width": 684
+    }
+  ],
+  "/projects/pet-project/assets/office-xl-ru.png": [
+    {
+      "src": "/projects/pet-project/assets/responsive/office-xl-ru-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/office-xl-ru-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/pet-project/assets/responsive/office-xl-ru-684.webp",
+      "width": 684
+    }
+  ],
+  "/projects/garnet/assets/app-icon.png": [
+    {
+      "src": "/projects/garnet/assets/responsive/app-icon-56.webp",
+      "width": 56
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/app-icon-112.webp",
+      "width": 112
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/app-icon-224.webp",
+      "width": 224
+    }
+  ],
+  "/projects/garnet/assets/calendar-light-en-iphone-pro-max-20261024.png": [
+    {
+      "src": "/projects/garnet/assets/responsive/calendar-light-en-iphone-pro-max-20261024-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/calendar-light-en-iphone-pro-max-20261024-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/calendar-light-en-iphone-pro-max-20261024-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/calendar-light-en-iphone-pro-max-20261024-1320.webp",
+      "width": 1320
+    }
+  ],
+  "/projects/garnet/assets/statistics-light-en-iphone-pro-max-20261024.png": [
+    {
+      "src": "/projects/garnet/assets/responsive/statistics-light-en-iphone-pro-max-20261024-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/statistics-light-en-iphone-pro-max-20261024-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/statistics-light-en-iphone-pro-max-20261024-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/statistics-light-en-iphone-pro-max-20261024-1320.webp",
+      "width": 1320
+    }
+  ],
+  "/projects/garnet/assets/sharing-light-en-iphone-pro-max-20261024.png": [
+    {
+      "src": "/projects/garnet/assets/responsive/sharing-light-en-iphone-pro-max-20261024-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/sharing-light-en-iphone-pro-max-20261024-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/sharing-light-en-iphone-pro-max-20261024-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/sharing-light-en-iphone-pro-max-20261024-1320.webp",
+      "width": 1320
+    }
+  ],
+  "/projects/garnet/assets/calendar-dark-en-iphone-pro-max-20261024.png": [
+    {
+      "src": "/projects/garnet/assets/responsive/calendar-dark-en-iphone-pro-max-20261024-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/calendar-dark-en-iphone-pro-max-20261024-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/calendar-dark-en-iphone-pro-max-20261024-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/calendar-dark-en-iphone-pro-max-20261024-1320.webp",
+      "width": 1320
+    }
+  ],
+  "/projects/garnet/assets/statistics-dark-en-iphone-pro-max-20261024.png": [
+    {
+      "src": "/projects/garnet/assets/responsive/statistics-dark-en-iphone-pro-max-20261024-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/statistics-dark-en-iphone-pro-max-20261024-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/statistics-dark-en-iphone-pro-max-20261024-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/statistics-dark-en-iphone-pro-max-20261024-1320.webp",
+      "width": 1320
+    }
+  ],
+  "/projects/garnet/assets/sharing-dark-en-iphone-pro-max-20261024.png": [
+    {
+      "src": "/projects/garnet/assets/responsive/sharing-dark-en-iphone-pro-max-20261024-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/sharing-dark-en-iphone-pro-max-20261024-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/sharing-dark-en-iphone-pro-max-20261024-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/sharing-dark-en-iphone-pro-max-20261024-1320.webp",
+      "width": 1320
+    }
+  ],
+  "/projects/garnet/assets/calendar-light-ru-iphone-pro-max-20261024.png": [
+    {
+      "src": "/projects/garnet/assets/responsive/calendar-light-ru-iphone-pro-max-20261024-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/calendar-light-ru-iphone-pro-max-20261024-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/calendar-light-ru-iphone-pro-max-20261024-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/calendar-light-ru-iphone-pro-max-20261024-1320.webp",
+      "width": 1320
+    }
+  ],
+  "/projects/garnet/assets/statistics-light-ru-iphone-pro-max-20261024.png": [
+    {
+      "src": "/projects/garnet/assets/responsive/statistics-light-ru-iphone-pro-max-20261024-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/statistics-light-ru-iphone-pro-max-20261024-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/statistics-light-ru-iphone-pro-max-20261024-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/statistics-light-ru-iphone-pro-max-20261024-1320.webp",
+      "width": 1320
+    }
+  ],
+  "/projects/garnet/assets/sharing-light-ru-iphone-pro-max-20261024.png": [
+    {
+      "src": "/projects/garnet/assets/responsive/sharing-light-ru-iphone-pro-max-20261024-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/sharing-light-ru-iphone-pro-max-20261024-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/sharing-light-ru-iphone-pro-max-20261024-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/sharing-light-ru-iphone-pro-max-20261024-1320.webp",
+      "width": 1320
+    }
+  ],
+  "/projects/garnet/assets/calendar-dark-ru-iphone-pro-max-20261024.png": [
+    {
+      "src": "/projects/garnet/assets/responsive/calendar-dark-ru-iphone-pro-max-20261024-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/calendar-dark-ru-iphone-pro-max-20261024-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/calendar-dark-ru-iphone-pro-max-20261024-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/calendar-dark-ru-iphone-pro-max-20261024-1320.webp",
+      "width": 1320
+    }
+  ],
+  "/projects/garnet/assets/statistics-dark-ru-iphone-pro-max-20261024.png": [
+    {
+      "src": "/projects/garnet/assets/responsive/statistics-dark-ru-iphone-pro-max-20261024-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/statistics-dark-ru-iphone-pro-max-20261024-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/statistics-dark-ru-iphone-pro-max-20261024-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/statistics-dark-ru-iphone-pro-max-20261024-1320.webp",
+      "width": 1320
+    }
+  ],
+  "/projects/garnet/assets/sharing-dark-ru-iphone-pro-max-20261024.png": [
+    {
+      "src": "/projects/garnet/assets/responsive/sharing-dark-ru-iphone-pro-max-20261024-320.webp",
+      "width": 320
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/sharing-dark-ru-iphone-pro-max-20261024-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/sharing-dark-ru-iphone-pro-max-20261024-800.webp",
+      "width": 800
+    },
+    {
+      "src": "/projects/garnet/assets/responsive/sharing-dark-ru-iphone-pro-max-20261024-1320.webp",
+      "width": 1320
+    }
+  ]
+}

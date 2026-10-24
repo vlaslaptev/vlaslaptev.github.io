@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BatteryGrid for Mac. Five widget sizes, three palettes, and your devices arranged your way. Native battery widgets. Public release in preparation.">
+  <meta name="color-scheme" content="light">
+  <title>BatteryGrid — Battery widgets, your way.</title>
+  <link rel="icon" href="assets/app-icon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css?v=107d4213ca41">
+<link rel="stylesheet" href="/assets/portfolio-link.css?v=b1eb14976892">
+<script src="/assets/portfolio-link.js?v=8d5f6821e3e2" defer></script>
+<link rel="stylesheet" href="responsive.css?v=48df85bc7100">
+<link rel="canonical" href="https://vlaslaptev.github.io/projects/batterygrid/">
+<meta property="og:title" content="BatteryGrid — Battery widgets, your way.">
+<meta property="og:description" content="Native battery widgets for Mac. Your devices, arranged your way.">
+<meta property="og:url" content="https://vlaslaptev.github.io/projects/batterygrid/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://vlaslaptev.github.io/projects/batterygrid/assets/palette-polar.png">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="portfolio-backbar"><a href="/#projects" data-portfolio-return>‹ Vlas Laptev <span aria-hidden="true">/</span> <span data-portfolio-return-label>All projects</span></a><span data-portfolio-return-fallback> · <a href="/ru/#projects" lang="ru">Все проекты</a></span></div>
+<header class="site-header">
+    <nav class="navigation wrap" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="BatteryGrid, back to top">
+        <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/app-icon-56.webp 56w, /projects/batterygrid/assets/responsive/app-icon-112.webp 112w, /projects/batterygrid/assets/responsive/app-icon-224.webp 224w" sizes="36px"><img src="assets/app-icon.png" width="36" height="36" alt=""></picture>
+        <span>BatteryGrid</span>
+      </a>
+      <div class="nav-links">
+        <a href="#side-by-side">Why BatteryGrid</a>
+        <a href="#sizes">Sizes</a>
+      </div>
+      <a class="button button-small" href="#download">Availability <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div id="top" class="top-anchor"></div>
+    <section class="layout-section opening-section section-space wrap" id="layout" aria-labelledby="layout-title">
+      <div class="section-heading">
+        <p class="eyebrow">BatteryGrid for Mac</p>
+        <h1 id="layout-title">More room.<br><span>Still all rings.</span></h1>
+        <p class="section-intro">Apple’s large widget becomes a list. BatteryGrid keeps the rings — with more room, three palettes, and your devices arranged your way.</p>
+        <p class="availability-note">Public release in preparation. No public download or payment is available yet.</p>
+        <p class="opening-offer">Planned as a free app. <a href="#download">Pay what you want <span aria-hidden="true">↗</span></a></p>
+      </div>
+      <div class="layout-comparison">
+        <figure class="layout-card apple-layout">
+          <figcaption><span class="comparison-name">Apple Batteries</span><span>Actual screenshot</span></figcaption>
+          <div class="capture-crop gallery-crop apple-large-color-crop">
+            <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/apple-gallery-color-320.webp 320w, /projects/batterygrid/assets/responsive/apple-gallery-color-480.webp 480w, /projects/batterygrid/assets/responsive/apple-gallery-color-800.webp 800w, /projects/batterygrid/assets/responsive/apple-gallery-color-1200.webp 1200w, /projects/batterygrid/assets/responsive/apple-gallery-color-1522.webp 1522w" sizes="(max-width: 769px) 1561px, 1366px"><img src="assets/apple-gallery-color.png" fetchpriority="high" width="1522" height="716" alt="Actual full-color large Apple Batteries widget showing MacBook Pro, AirPods, case, keyboard, and trackpad as a list"></picture>
+          </div>
+          <p>Five devices. Five rows.<br><strong>A fixed layout.</strong></p>
+        </figure>
+        <figure class="layout-card grid-layout">
+          <figcaption><span class="comparison-name">BatteryGrid</span><span>Native render · demo data</span></figcaption>
+          <div class="gallery-crop batterygrid-native-preview">
+            <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/palette-polar-320.webp 320w, /projects/batterygrid/assets/responsive/palette-polar-480.webp 480w, /projects/batterygrid/assets/responsive/palette-polar-688.webp 688w" sizes="(max-width: 769px) calc(100vw - 80px), 480px"><img src="assets/palette-polar.png?v=small-four-20261017" width="688" height="688" alt="Native BatteryGrid Polar render with ten distinct icons, including Apple Pencil and a stylus, sorted lowest charge first and two empty slots; demo data"></picture>
+          </div>
+          <p>Ten devices. Room for more.<br><strong>Up to 15 cells in a compact grid.</strong></p>
+        </figure>
+      </div>
+      <p class="image-note">Apple: actual gallery capture. BatteryGrid: native render with demo data, at regular density — ten devices and two free slots.</p>
+
+    </section>
+
+    <section class="appearance-section dark-section section-space" id="appearance" aria-labelledby="appearance-title">
+      <div class="wrap palette-control">
+        
+        
+        
+        
+        
+        <div class="palette-copy">
+          <p class="eyebrow">Make it yours</p>
+          <h2 id="appearance-title">Change the look.<br><span class="cyan">Keep the clarity.</span></h2>
+          <p class="section-intro">Quiet monochrome, familiar green, or cool blue. Three palettes inside BatteryGrid, alongside your desktop’s system appearance.</p>
+          <fieldset class="palette-options">
+            <legend>Choose a palette</legend>
+            <input class="visually-hidden palette-input" type="radio" name="palette" id="palette-polar" checked><input class="visually-hidden palette-input" type="radio" name="palette" id="palette-classic"><input class="visually-hidden palette-input" type="radio" name="palette" id="palette-monochrome">
+            <label for="palette-polar"><span class="swatch polar-swatch" aria-hidden="true"></span>Polar</label>
+            <label for="palette-classic"><span class="swatch classic-swatch" aria-hidden="true"></span>Classic</label>
+            <label for="palette-monochrome"><span class="swatch mono-swatch" aria-hidden="true"></span>Monochrome</label>
+          </fieldset>
+          <div class="palette-descriptions" aria-live="polite">
+            <p class="polar-description"><strong>Polar.</strong> Blue battery levels, mint while charging, and orange at 20% or below.</p>
+            <p class="classic-description"><strong>Classic.</strong> Green rings with a red accent for low batteries.</p>
+            <p class="monochrome-description"><strong>Monochrome.</strong> Light rings and a contrasting bolt. You don’t need color to see that charging is in progress.</p>
+          </div>
+          <fieldset class="palette-options appearance-density-options">
+            <legend>Grid density</legend>
+            <input class="visually-hidden palette-input" type="radio" name="appearance-density" id="appearance-density-regular" checked><input class="visually-hidden palette-input" type="radio" name="appearance-density" id="appearance-density-compact">
+            <label for="appearance-density-regular">Regular</label>
+            <label for="appearance-density-compact">Compact</label>
+          </fieldset>
+        </div>
+        <figure class="palette-preview">
+          <div class="palette-images">
+            <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/palette-polar-320.webp 320w, /projects/batterygrid/assets/responsive/palette-polar-480.webp 480w, /projects/batterygrid/assets/responsive/palette-polar-688.webp 688w" sizes="(max-width: 769px) calc(100vw - 80px), 480px"><img class="polar-preview appearance-regular" src="assets/palette-polar.png?v=small-four-20261017" width="688" height="688" loading="lazy" alt="Native Polar regular render: ten distinct icons sorted lowest charge first, two free slots, blue rings, orange low batteries, and a mint charging badge; demo data"></picture>
+            <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/palette-polar-compact-320.webp 320w, /projects/batterygrid/assets/responsive/palette-polar-compact-480.webp 480w, /projects/batterygrid/assets/responsive/palette-polar-compact-688.webp 688w" sizes="(max-width: 769px) calc(100vw - 80px), 480px"><img class="polar-preview appearance-compact" src="assets/palette-polar-compact.png?v=small-four-20261017" width="688" height="688" loading="lazy" alt="Native Polar compact render: the same ten icons sorted lowest charge first in fifteen cells, with five free slots; demo data"></picture>
+            <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/palette-classic-320.webp 320w, /projects/batterygrid/assets/responsive/palette-classic-480.webp 480w, /projects/batterygrid/assets/responsive/palette-classic-688.webp 688w" sizes="(max-width: 769px) calc(100vw - 80px), 480px"><img class="classic-preview appearance-regular" src="assets/palette-classic.png?v=small-four-20261017" width="688" height="688" loading="lazy" alt="Native Classic regular render: the same ten icons sorted lowest charge first, two free slots, green rings, and red low batteries; demo data"></picture>
+            <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/palette-classic-compact-320.webp 320w, /projects/batterygrid/assets/responsive/palette-classic-compact-480.webp 480w, /projects/batterygrid/assets/responsive/palette-classic-compact-688.webp 688w" sizes="(max-width: 769px) calc(100vw - 80px), 480px"><img class="classic-preview appearance-compact" src="assets/palette-classic-compact.png?v=small-four-20261017" width="688" height="688" loading="lazy" alt="Native Classic compact render: the same ten icons sorted lowest charge first in fifteen cells, with five free slots; demo data"></picture>
+            <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/palette-monochrome-320.webp 320w, /projects/batterygrid/assets/responsive/palette-monochrome-480.webp 480w, /projects/batterygrid/assets/responsive/palette-monochrome-688.webp 688w" sizes="(max-width: 769px) calc(100vw - 80px), 480px"><img class="monochrome-preview appearance-regular" src="assets/palette-monochrome.png?v=small-four-20261017" width="688" height="688" loading="lazy" alt="Native Monochrome regular render: the same ten icons sorted lowest charge first, two free slots, and a separate charging badge; demo data"></picture>
+            <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/palette-monochrome-compact-320.webp 320w, /projects/batterygrid/assets/responsive/palette-monochrome-compact-480.webp 480w, /projects/batterygrid/assets/responsive/palette-monochrome-compact-688.webp 688w" sizes="(max-width: 769px) calc(100vw - 80px), 480px"><img class="monochrome-preview appearance-compact" src="assets/palette-monochrome-compact.png?v=small-four-20261017" width="688" height="688" loading="lazy" alt="Native Monochrome compact render: the same ten icons sorted lowest charge first in fifteen cells, with five free slots; demo data"></picture>
+          </div>
+          <figcaption>10 distinct icons. Lowest charge first.<br><span class="appearance-regular">12 cells · 2 free.</span><span class="appearance-compact">15 cells · 5 free.</span><br>Native render · demo data</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="download-banner" id="get-batterygrid" aria-labelledby="get-batterygrid-title">
+      <div class="wrap download-banner-inner">
+        <div class="download-banner-copy">
+          <p class="eyebrow blue">BatteryGrid for Mac</p>
+          <h2 id="get-batterygrid-title">Your setup.<br>Your way.</h2>
+          <p class="download-banner-offer">The full app will be free.<br>Optional support is planned for release.</p>
+          <p class="release-meta">macOS 14+ <span>Apple silicon &amp; Intel</span></p>
+        </div>
+        <div class="download-banner-actions">
+          <a class="button release-download" href="mailto:vlas.developer@icloud.com?subject=BatteryGrid%20for%20Mac">Ask about BatteryGrid <span aria-hidden="true">↗</span></a>
+          <a class="optional-support-link" href="#download">Pay what you want <span aria-hidden="true">↗</span></a>
+          <p class="release-status" id="preview-release-status">Public release in preparation.<br>A download is not available yet.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="dark-section scenario-section" id="charging" aria-labelledby="charging-title">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="eyebrow">Details that make a difference</p>
+          <h2 id="charging-title">Your devices.<br><span class="mint">Your decisions.</span></h2>
+          <p class="section-intro">Compare Regular and Compact. Clear charging cues, custom icons, and the option to pin devices in place.</p>
+        </div>
+        <fieldset class="scenario-switcher">
+          <legend class="visually-hidden">Choose a comparison mode</legend>
+          <input class="scenario-radio" type="radio" name="comparison-mode" id="compare-regular" aria-controls="panel-regular" checked>
+          <input class="scenario-radio" type="radio" name="comparison-mode" id="compare-compact" aria-controls="panel-compact">
+          <div class="scenario-controls">
+            <label for="compare-regular">Regular</label>
+            <label for="compare-compact">Compact</label>
+          </div>
+          <div class="scenario-stage">
+            <div class="scenario-panel" id="panel-regular" role="region" aria-labelledby="scenario-regular-title">
+              <div class="scenario-summary"><h3 id="scenario-regular-title">See what needs charging first.</h3><p>Put the lowest charge first, or choose highest charge or name.</p></div>
+              <div class="scenario-pair">
+                <figure class="scenario-card scenario-apple">
+                  <figcaption><strong>Apple Batteries</strong><span class="scenario-card-badge">Tinted mode</span></figcaption>
+                  <p class="scenario-visual-verdict issue-verdict">Low contrast</p>
+                  <div class="scenario-widget capture-crop apple-tinted-medium-crop"><picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/apple-desktop-tinted-medium-320.webp 320w, /projects/batterygrid/assets/responsive/apple-desktop-tinted-medium-399.webp 399w" sizes="(max-width: 769px) calc(115vw - 90px), 500px"><img src="assets/apple-desktop-tinted-medium.png" width="399" height="191" loading="lazy" alt="Actual Apple Batteries tinted medium widget: MacBook 100%, charging AirPods 100%, case 75%, keyboard 44%"></picture></div>
+                  <div class="scenario-card-copy"><h4>100% comes before 44%.</h4><p>The order in this Apple capture is not lowest charge first. The keyboard has the lowest visible charge, but sits in the final slot.</p></div>
+                  <div class="scenario-proof"><span class="scenario-tag">100% → 100% → 75% → 44%</span><span class="scenario-tag">No custom icons</span></div>
+                </figure>
+                <figure class="scenario-card scenario-batterygrid">
+                  <figcaption><strong>BatteryGrid</strong><span class="scenario-card-badge">Monochrome mode</span></figcaption>
+                  <p class="scenario-visual-verdict benefit-verdict">Clear by design</p>
+                  <div class="scenario-widget native-scenario"><picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/batterygrid-monochrome-medium-320.webp 320w, /projects/batterygrid/assets/responsive/batterygrid-monochrome-medium-480.webp 480w, /projects/batterygrid/assets/responsive/batterygrid-monochrome-medium-688.webp 688w" sizes="(max-width: 769px) calc(100vw - 80px), 480px"><img src="assets/batterygrid-monochrome-medium.png?v=small-four-20261017" width="688" height="328" loading="lazy" alt="Native BatteryGrid demo sorted lowest charge first: trackpad 10%, keyboard 44%, case 75%, charging AirPods 100%"></picture></div>
+                  <div class="scenario-card-copy"><h4>The low battery leads.</h4><p>The trackpad at 10% comes first, ahead of the keyboard at 44%. Sorting applies to the cells you have not pinned.</p></div>
+                  <div class="scenario-proof"><span class="scenario-tag benefit-tag">10% → 44% → 75% → 100%</span><span class="scenario-tag benefit-tag">Custom icons</span></div>
+                </figure>
+              </div>
+            </div>
+            <div class="scenario-panel" id="panel-compact" role="region" aria-labelledby="scenario-compact-title">
+              <div class="scenario-summary"><h3 id="scenario-compact-title">More devices. The same footprint.</h3><p>Choose Regular or Compact to fit the way you use your desktop.</p></div>
+              <div class="scenario-pair">
+                <figure class="scenario-card scenario-apple">
+                  <figcaption><strong>Apple Batteries</strong><span class="scenario-card-badge">Tinted mode</span></figcaption>
+                  <p class="scenario-visual-verdict issue-verdict">Low contrast</p>
+                  <div class="scenario-widget capture-crop apple-tinted-medium-crop"><picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/apple-desktop-tinted-medium-320.webp 320w, /projects/batterygrid/assets/responsive/apple-desktop-tinted-medium-399.webp 399w" sizes="(max-width: 769px) calc(115vw - 90px), 500px"><img src="assets/apple-desktop-tinted-medium.png" width="399" height="191" loading="lazy" alt="Actual Apple Batteries tinted medium widget: MacBook 100%, charging AirPods 100%, case 75%, keyboard 44%"></picture></div>
+                  <div class="scenario-card-copy"><h4>Four cells, with fixed density.</h4><p>The medium Batteries widget shown has four visible slots. It has no density setting to make room for a fifth device.</p></div>
+                  <div class="scenario-proof"><span class="scenario-tag">Medium · 4 visible slots</span><span class="scenario-tag">No custom icons</span></div>
+                </figure>
+                <figure class="scenario-card scenario-batterygrid">
+                  <figcaption><strong>BatteryGrid</strong><span class="scenario-card-badge">Monochrome mode</span></figcaption>
+                  <p class="scenario-visual-verdict benefit-verdict">Clear by design</p>
+                  <div class="scenario-widget native-scenario"><picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/comparison-medium-compact-320.webp 320w, /projects/batterygrid/assets/responsive/comparison-medium-compact-480.webp 480w, /projects/batterygrid/assets/responsive/comparison-medium-compact-688.webp 688w" sizes="(max-width: 769px) calc(100vw - 80px), 480px"><img src="assets/comparison-medium-compact.png?v=small-four-20261017" width="688" height="328" loading="lazy" alt="Native BatteryGrid Compact medium demo with five cells: trackpad 10%, keyboard 44%, case 75%, AirPods 100%, Mac 100%"></picture></div>
+                  <div class="scenario-card-copy"><h4>Five cells in Compact.</h4><p>Keep the medium size and add a fifth cell. Every BatteryGrid size offers both densities. <a href="#sizes">See all sizes and densities <span aria-hidden="true">↗</span></a>.</p></div>
+                  <div class="scenario-proof"><span class="scenario-tag benefit-tag">Medium · 5 compact cells</span><span class="scenario-tag benefit-tag">Custom icons</span></div>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <p class="scenario-note">Apple screenshots are unchanged and show the tinted appearance captured on our test Mac. BatteryGrid examples are native renders with illustrative readings, sorted lowest charge first. Pinning is optional and is not applied in these previews. The readings are not a live device comparison. <a href="#comparison-notes">About the examples <span aria-hidden="true">↗</span></a></p>
+      </div>
+    </section>
+
+    <section class="sizes-section section-space" id="sizes" aria-labelledby="sizes-title">
+      <div class="wrap size-control">
+        <div class="size-gallery">
+          <div class="section-heading size-heading">
+            <p class="eyebrow">Room for your setup</p>
+            <h2 id="sizes-title">A small detail.<br>Or your whole setup.</h2>
+          </div>
+          <div class="size-family size-small" role="group" aria-labelledby="size-small-title">
+            <h3 id="size-small-title" class="visually-hidden">Small, up to 4 device slots</h3>
+            <figure class="size-variant">
+              <a class="size-image" href="assets/size-small-regular.png?v=small-four-20261017" target="_blank" rel="noopener noreferrer" aria-label="View Small Regular preview at full size (opens in a new tab)">
+                <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/size-small-regular-320.webp 320w, /projects/batterygrid/assets/responsive/size-small-regular-328.webp 328w" sizes="(max-width: 769px) calc(50vw - 28px), 160px"><img src="assets/size-small-regular.png?v=small-four-20261017" width="328" height="328" loading="lazy" alt="Native Small regular layout, 1 of 1 cells filled with distinct icons, sorted lowest charge first; illustrative readings"></picture>
+              </a>
+            </figure>
+            <figure class="size-variant">
+              <a class="size-image" href="assets/size-small-compact.png?v=small-four-20261017" target="_blank" rel="noopener noreferrer" aria-label="View Small Compact preview at full size (opens in a new tab)">
+                <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/size-small-compact-320.webp 320w, /projects/batterygrid/assets/responsive/size-small-compact-328.webp 328w" sizes="(max-width: 769px) calc(50vw - 28px), 160px"><img src="assets/size-small-compact.png?v=small-four-20261017" width="328" height="328" loading="lazy" alt="Native Small compact layout, 2 of 2 cells filled with distinct icons, sorted lowest charge first; illustrative readings"></picture>
+              </a>
+            </figure>
+          </div>
+          <div class="size-family size-medium" role="group" aria-labelledby="size-medium-title">
+            <h3 id="size-medium-title" class="visually-hidden">Medium, up to 5 device slots</h3>
+            <figure class="size-variant">
+              <a class="size-image" href="assets/size-medium-regular.png?v=small-four-20261017" target="_blank" rel="noopener noreferrer" aria-label="View Medium Regular preview at full size (opens in a new tab)">
+                <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/size-medium-regular-320.webp 320w, /projects/batterygrid/assets/responsive/size-medium-regular-480.webp 480w, /projects/batterygrid/assets/responsive/size-medium-regular-688.webp 688w" sizes="(max-width: 769px) calc(50vw - 28px), 320px"><img src="assets/size-medium-regular.png?v=small-four-20261017" width="688" height="328" loading="lazy" alt="Native Medium regular layout, 4 of 4 cells filled with distinct icons, sorted lowest charge first; illustrative readings"></picture>
+              </a>
+            </figure>
+            <figure class="size-variant">
+              <a class="size-image" href="assets/size-medium-compact.png?v=small-four-20261017" target="_blank" rel="noopener noreferrer" aria-label="View Medium Compact preview at full size (opens in a new tab)">
+                <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/size-medium-compact-320.webp 320w, /projects/batterygrid/assets/responsive/size-medium-compact-480.webp 480w, /projects/batterygrid/assets/responsive/size-medium-compact-688.webp 688w" sizes="(max-width: 769px) calc(50vw - 28px), 320px"><img src="assets/size-medium-compact.png?v=small-four-20261017" width="688" height="328" loading="lazy" alt="Native Medium compact layout, 5 of 5 cells filled with distinct icons, sorted lowest charge first; illustrative readings"></picture>
+              </a>
+            </figure>
+          </div>
+          <div class="size-family size-large" role="group" aria-labelledby="size-large-title">
+            <h3 id="size-large-title" class="visually-hidden">Large, up to 15 device slots</h3>
+            <figure class="size-variant">
+              <a class="size-image" href="assets/size-large-regular.png?v=small-four-20261017" target="_blank" rel="noopener noreferrer" aria-label="View Large Regular preview at full size (opens in a new tab)">
+                <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/size-large-regular-320.webp 320w, /projects/batterygrid/assets/responsive/size-large-regular-480.webp 480w, /projects/batterygrid/assets/responsive/size-large-regular-688.webp 688w" sizes="(max-width: 769px) calc(50vw - 28px), 320px"><img src="assets/size-large-regular.png?v=small-four-20261017" width="688" height="688" loading="lazy" alt="Native Large regular layout, 12 of 12 cells filled with distinct icons, sorted lowest charge first; illustrative readings"></picture>
+              </a>
+            </figure>
+            <figure class="size-variant">
+              <a class="size-image" href="assets/size-large-compact.png?v=small-four-20261017" target="_blank" rel="noopener noreferrer" aria-label="View Large Compact preview at full size (opens in a new tab)">
+                <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/size-large-compact-320.webp 320w, /projects/batterygrid/assets/responsive/size-large-compact-480.webp 480w, /projects/batterygrid/assets/responsive/size-large-compact-688.webp 688w" sizes="(max-width: 769px) calc(50vw - 28px), 320px"><img src="assets/size-large-compact.png?v=small-four-20261017" width="688" height="688" loading="lazy" alt="Native Large compact layout, 15 of 15 cells filled with distinct icons, sorted lowest charge first; illustrative readings"></picture>
+              </a>
+            </figure>
+          </div>
+          <div class="size-family size-landscape" role="group" aria-labelledby="size-landscape-title">
+            <h3 id="size-landscape-title" class="visually-hidden">XL Landscape</h3>
+            <figure class="size-variant">
+              <a class="size-image" href="assets/size-xl-landscape-regular.png?v=small-four-20261017" target="_blank" rel="noopener noreferrer" aria-label="View XL Landscape Regular preview at full size (opens in a new tab)">
+                <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/size-xl-landscape-regular-320.webp 320w, /projects/batterygrid/assets/responsive/size-xl-landscape-regular-480.webp 480w, /projects/batterygrid/assets/responsive/size-xl-landscape-regular-800.webp 800w, /projects/batterygrid/assets/responsive/size-xl-landscape-regular-1200.webp 1200w, /projects/batterygrid/assets/responsive/size-xl-landscape-regular-1440.webp 1440w" sizes="(max-width: 769px) calc(100vw - 40px), 640px"><img src="assets/size-xl-landscape-regular.png?v=small-four-20261017" width="1440" height="688" loading="lazy" alt="Native XL Landscape regular layout, 18 of 24 cells filled with distinct icons, sorted lowest charge first; illustrative readings"></picture>
+              </a>
+            </figure>
+            <figure class="size-variant">
+              <a class="size-image" href="assets/size-xl-landscape-compact.png?v=small-four-20261017" target="_blank" rel="noopener noreferrer" aria-label="View XL Landscape Compact preview at full size (opens in a new tab)">
+                <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/size-xl-landscape-compact-320.webp 320w, /projects/batterygrid/assets/responsive/size-xl-landscape-compact-480.webp 480w, /projects/batterygrid/assets/responsive/size-xl-landscape-compact-800.webp 800w, /projects/batterygrid/assets/responsive/size-xl-landscape-compact-1200.webp 1200w, /projects/batterygrid/assets/responsive/size-xl-landscape-compact-1440.webp 1440w" sizes="(max-width: 769px) calc(100vw - 40px), 640px"><img src="assets/size-xl-landscape-compact.png?v=small-four-20261017" width="1440" height="688" loading="lazy" alt="Native XL Landscape compact layout, 18 of 30 cells filled with distinct icons, sorted lowest charge first; illustrative readings"></picture>
+              </a>
+            </figure>
+          </div>
+          <div class="size-family size-portrait" role="group" aria-labelledby="size-portrait-title">
+            <h3 id="size-portrait-title" class="visually-hidden">XL Portrait</h3>
+            <figure class="size-variant">
+              <a class="size-image" href="assets/size-xl-portrait-regular.png?v=small-four-20261017" target="_blank" rel="noopener noreferrer" aria-label="View XL Portrait Regular preview at full size (opens in a new tab)">
+                <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/size-xl-portrait-regular-320.webp 320w, /projects/batterygrid/assets/responsive/size-xl-portrait-regular-480.webp 480w, /projects/batterygrid/assets/responsive/size-xl-portrait-regular-688.webp 688w" sizes="(max-width: 769px) calc(50vw - 28px), 320px"><img src="assets/size-xl-portrait-regular.png?v=small-four-20261017" width="688" height="1440" loading="lazy" alt="Native XL Portrait regular layout, 18 of 24 cells filled with distinct icons, sorted lowest charge first; illustrative readings"></picture>
+              </a>
+            </figure>
+            <figure class="size-variant">
+              <a class="size-image" href="assets/size-xl-portrait-compact.png?v=small-four-20261017" target="_blank" rel="noopener noreferrer" aria-label="View XL Portrait Compact preview at full size (opens in a new tab)">
+                <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/size-xl-portrait-compact-320.webp 320w, /projects/batterygrid/assets/responsive/size-xl-portrait-compact-480.webp 480w, /projects/batterygrid/assets/responsive/size-xl-portrait-compact-688.webp 688w" sizes="(max-width: 769px) calc(50vw - 28px), 320px"><img src="assets/size-xl-portrait-compact.png?v=small-four-20261017" width="688" height="1440" loading="lazy" alt="Native XL Portrait compact layout, 18 of 30 cells filled with distinct icons, sorted lowest charge first; illustrative readings"></picture>
+              </a>
+            </figure>
+          </div>
+          <div class="size-facts" role="group" aria-label="Small widget option and BatteryGrid in numbers">
+            <figure class="size-variant size-four-icons">
+              <a class="size-image" href="assets/size-small-four-icons.png?v=small-four-20261017" target="_blank" rel="noopener noreferrer" aria-label="View Small with four icons and no percentages (opens in a new tab)">
+                <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/size-small-four-icons-320.webp 320w, /projects/batterygrid/assets/responsive/size-small-four-icons-328.webp 328w" sizes="(max-width: 769px) calc(50vw - 28px), 160px"><img src="assets/size-small-four-icons.png?v=small-four-20261017" width="328" height="328" loading="lazy" alt="Native Small widget with four device icons in a 2 by 2 grid: iPhone, Apple Watch, AirPods Pro and case; no numeric percentages; illustrative readings"></picture>
+              </a>
+              <figcaption>Small · 4 icons<span>No percentages</span></figcaption>
+            </figure>
+            <p class="size-fact"><span class="size-fact-lead">More than</span><strong>50</strong><span class="size-fact-detail">unique icons</span></p>
+            <p class="size-fact size-capacity" data-density="regular"><span class="size-fact-lead">Up to <span class="size-fact-mode" aria-hidden="true">Regular</span></span><strong>24</strong><span class="size-fact-detail">device slots<span class="visually-hidden"> in Regular mode in either XL size</span></span></p>
+            <p class="size-fact size-capacity" data-density="compact"><span class="size-fact-lead">Up to <span class="size-fact-mode" aria-hidden="true">Compact</span></span><strong>30</strong><span class="size-fact-detail">device slots<span class="visually-hidden"> in Compact mode in either XL size</span></span></p>
+            <p class="size-fact size-fact-free"><span class="size-fact-lead">Free App</span><strong>0</strong><span class="size-fact-detail">accounts required</span></p>
+          </div>
+        </div>
+        <p class="image-note">Eleven native layout examples, including the optional four-icon Small widget without percentages. Enable it in BatteryGrid settings; it applies to Small in both densities. Native renders use illustrative readings, sorted lowest charge first. Each XL example shows 18 distinct icons: 18 of 24 regular cells or 18 of 30 compact cells. Icons demonstrate the catalog, not guaranteed automatic device support. The first four sizes require macOS 14+; XL Portrait requires macOS 27+.</p>
+      </div>
+    </section>
+
+    <section class="control-section section-space wrap" aria-labelledby="control-title">
+      <div class="section-heading"><p class="eyebrow">Your arrangement</p><h2 id="control-title">Your devices.<br><span class="muted">Your arrangement.</span></h2></div>
+      <div class="control-grid">
+        <div class="settings-shot"><picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/batterygrid-settings-320.webp 320w, /projects/batterygrid/assets/responsive/batterygrid-settings-480.webp 480w, /projects/batterygrid/assets/responsive/batterygrid-settings-800.webp 800w, /projects/batterygrid/assets/responsive/batterygrid-settings-980.webp 980w" sizes="(max-width: 769px) calc(100vw - 40px), 460px"><img src="assets/batterygrid-settings.png?v=small-four-settings-20261017" width="980" height="1073" loading="lazy" alt="Actual BatteryGrid window with the four-icon Small preview, grouped settings, auto-save feedback and radio-button palette choices"></picture><span class="screenshot-badge">Actual app screenshot</span></div>
+        <div class="control-features">
+          <article><span class="feature-number">01</span><h3>Put the important things first.</h3><p>Pin a device to a cell. Or sort by battery level to see what needs a power outlet first.</p></article>
+          <article><span class="feature-number">02</span><h3>Just what you need.</h3><p>Hide devices you don’t need. A pinned device keeps its place, and you can undo your last layout change.</p></article>
+          <article><span class="feature-number">03</span><h3>Recognize it at a glance.</h3><p>Choose a silhouette from the icon catalog and check it in the preview, including at 100% scale.</p></article>
+        </div>
+      </div>
+      <div class="quiet-features">
+        <article><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="7" width="22" height="16" rx="3"/><path d="M12 28h8M16 23v5M10 12h12M10 17h8"/></svg><h3>At home on your Mac.</h3><p>Native desktop widgets, a menu bar app, and the option to launch at login.</p></article>
+        <article><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="7" y="14" width="18" height="15" rx="4"/><path d="M11 14V9a5 5 0 0 1 10 0v5M16 21v3"/></svg><h3>Your data stays local.</h3><p>No account, server, or analytics. Settings and device data stay on your Mac.</p></article>
+        <article><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9 6h14v22H9zM13 3h6M12 11h8M12 15h8M12 19h5"/></svg><h3>Real battery readings.</h3><p>Your Mac, compatible accessories, and AirPods. Battery levels and charging status depend on the device and macOS.</p></article>
+      </div>
+    </section>
+
+    <section class="table-section section-space" id="side-by-side" aria-labelledby="table-title">
+      <div class="wrap table-wrap">
+        <p class="eyebrow">Side by side</p>
+        <h2 id="table-title">The details matter.<br>See for yourself.</h2>
+        <p class="table-hint" id="comparison-scroll-hint">Scroll sideways to compare both apps. Use the arrow keys when the table is focused.</p>
+        <div class="table-scroll" aria-describedby="comparison-scroll-hint" role="region" aria-label="Apple Batteries and BatteryGrid comparison" tabindex="0">
+          <table>
+            <caption class="visually-hidden">Widget comparison on macOS 27.0.1</caption>
+            <thead><tr><th scope="col">Feature</th><th scope="col">Apple Batteries</th><th scope="col"><span class="blue">BatteryGrid</span></th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Sizes</th><td>3 standard sizes</td><td><strong>5, including two XL sizes</strong></td></tr>
+              <tr><th scope="row">Large widget</th><td>Device list</td><td><strong>A grid of rings</strong></td></tr>
+              <tr><th scope="row">Medium widget</th><td>4 visible slots</td><td><strong>4 regular or 5 compact cells</strong></td></tr>
+              <tr><th scope="row">Grid density</th><td>Fixed layout</td><td><strong>Regular and compact in every size; optional four-icon Small</strong></td></tr>
+              <tr><th scope="row">Built-in palettes</th><td>macOS system appearance</td><td><strong>Monochrome, Classic, Polar</strong></td></tr>
+              <tr><th scope="row">Charging cue</th><td>Faint in the tinted captures above</td><td><strong>Separate background badge in Monochrome</strong></td></tr>
+              <tr><th scope="row">Battery sorting</th><td>Not ordered by charge in the capture</td><td><strong>Lowest charge, highest charge, or name</strong></td></tr>
+              <tr><th scope="row">Device placement</th><td>Automatic</td><td><strong>Pin a device to a cell</strong></td></tr>
+              <tr><th scope="row">Visible devices</th><td>Automatic selection</td><td><strong>Hide the ones you don’t need</strong></td></tr>
+              <tr><th scope="row">Device icons</th><td>System-selected</td><td><strong>Choose a silhouette from the catalog</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="image-note">This comparison covers the widgets available on our test Mac. Apple also offers system controls for color and monochrome appearance; the Batteries version shown has no separate palettes or grid customization.</p>
+      </div>
+    </section>
+
+    <section class="download-section section-space wrap" id="download" aria-labelledby="download-title">
+      <div class="download-copy">
+        <picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/app-icon-56.webp 56w, /projects/batterygrid/assets/responsive/app-icon-112.webp 112w, /projects/batterygrid/assets/responsive/app-icon-224.webp 224w" sizes="112px"><img class="download-icon" src="assets/app-icon.png" width="112" height="112" loading="lazy" alt="BatteryGrid app icon"></picture>
+        <p class="eyebrow blue">Independently developed</p>
+        <h2 id="download-title">Your price.<br>Same full app.</h2>
+        <p class="section-intro">Make room for your devices, whatever your budget. The app will be free, with optional one-time support when the public release is ready.</p>
+        <p class="download-compatibility">macOS 14+ · Apple silicon &amp; Intel<br>XL Portrait requires macOS 27+.</p>
+      </div>
+      <div class="price-card" role="group" aria-labelledby="price-title">
+        <h3 id="price-title">Pay what you want</h3>
+        <p class="price-amount">$0<span>+</span></p>
+        <p class="price-caption">Free is welcome.</p>
+        <ul class="price-includes">
+          <li>All five sizes and three palettes</li>
+          <li>Regular, Compact, and every setting</li>
+          <li>No time limit. No subscription.</li>
+        </ul>
+        <a class="button release-download" href="mailto:vlas.developer@icloud.com?subject=BatteryGrid%20for%20Mac">Ask about BatteryGrid <span aria-hidden="true">↗</span></a>
+        <p class="price-suggestions">Want to support it? $5, $10, $20, or any amount.</p>
+        <button class="button optional-payment" type="button" disabled aria-describedby="payment-status">Pay what you want <span aria-hidden="true">♡</span></button>
+        <p class="payment-status" id="payment-status">Optional one-time payments coming soon.</p>
+        <p class="cta-note" id="download-status">Public release in preparation.<br>No public download or payment is available yet.</p>
+      </div>
+    </section>
+
+    <section class="faq-section section-space wrap" aria-labelledby="faq-title">
+      <h2 id="faq-title">A few more details.</h2>
+      <div class="faq-list">
+        <details><summary>Is BatteryGrid free?</summary><p>BatteryGrid is planned as a free app, with no time limit. The public release is in preparation. All five sizes, both densities, all three palettes, and every setting are included. Available widget sizes depend on your macOS version.</p></details>
+        <details><summary>What changes if I pay?</summary><p>You get the same full app. Paying any amount is an optional, one-time way to support BatteryGrid’s independent development. There is no subscription and no extra feature unlock. Optional payments are coming soon; the public download is not available yet.</p></details>
+        <details><summary>Which devices can I see?</summary><p>Your Mac, compatible keyboards, mice, trackpads, audio accessories, and other sources that provide battery data. Support depends on the model and the data available in macOS. An icon in the catalog does not by itself mean a device is automatically supported.</p></details>
+        <details><summary>What about AirPods and the case?</summary><p>BatteryGrid shows the AirPods data available to it: the earbuds, and separate left, right, and case readings when provided. macOS does not always expose every value or charging status, and some readings may be cached. The app does not invent missing percentages.</p></details>
+        <details><summary>Does it replace the system widget?</summary><p>BatteryGrid is a separate app with its own widgets. Add a size from the system gallery. You can keep Apple Batteries alongside it.</p></details>
+        <details><summary>Why are updates sometimes delayed?</summary><p>The app reads available sources in the background, while macOS decides when widgets refresh. A widget therefore cannot guarantee an update every second.</p></details>
+        <details id="comparison-notes"><summary>How were these comparisons made?</summary><p>The Apple images shown here are actual screenshots supplied by the app’s owner on October 16, 2026: a full-color widget gallery and a tinted medium desktop widget. The original files are unchanged. The comparison concerns the version and controls observed on our test Mac. The medium capture shows four devices, a faint charging bolt, and an order that is not lowest charge first.</p><p>The opening comparison pairs an actual Apple gallery capture with the native Polar render used in the palette preview: ten distinct icons, sorted lowest charge first, with two free slots at regular density. BatteryGrid’s comparison examples are native SwiftUI renders with illustrative readings, not readings taken from the Apple screenshots.</p><p>The comparison has two modes. Regular shows a four-cell BatteryGrid example sorted 10%, 44%, 75%, 100%, alongside the unchanged Apple medium capture. Compact retains the five-cell native example in the same footprint. Both modes call out the faint charging cue in the tinted Apple screenshot, the separate BatteryGrid charging badge, and custom icon availability. Pinned cells are an optional BatteryGrid setting; neither preview has pins applied. Icon choice changes appearance, not automatic battery support.</p><p>The palette previews use lowest-charge-first sorting with no pins. Each palette has ten distinct icons, leaving two regular cells or five compact cells free, and a Regular/Compact control. The sizes section shows all ten native size and density renders at the same scale, with illustrative readings. Select any preview to view it full size. In the app, selection, pins, sorting, and colors apply across BatteryGrid widgets on the same Mac.</p><p>For system appearance and sizes, see <a href="https://support.apple.com/guide/mac-help/add-and-customize-widgets-mchl52be5da5/mac" target="_blank" rel="noopener noreferrer">Apple’s guide to widgets on Mac <span aria-hidden="true">↗</span></a>.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-content"><a class="brand" href="#top"><picture class="responsive-image"><source type="image/webp" srcset="/projects/batterygrid/assets/responsive/app-icon-56.webp 56w, /projects/batterygrid/assets/responsive/app-icon-112.webp 112w, /projects/batterygrid/assets/responsive/app-icon-224.webp 224w" sizes="28px"><img src="assets/app-icon.png" width="28" height="28" alt=""></picture><span>BatteryGrid</span></a><p>An independent app for Mac.<br>Not affiliated with Apple Inc. Apple, Mac, macOS, and AirPods are trademarks of Apple Inc.<br><a href="icon-licenses.txt">Icon credits</a></p><span class="local-label">Vlas Laptev · 2026</span></div>
+  </footer>
+</body>
+</html>

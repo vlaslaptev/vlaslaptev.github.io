@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vlaslaptev.github.io/sitemap.xml
